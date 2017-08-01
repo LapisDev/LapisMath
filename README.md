@@ -11,6 +11,7 @@ A collection of portable class libraries for solving math problems written in C#
 [Lapis.Math.Algebra](src/Lapis.Math.Algebra) provides basic infrastructure for simple symbolic algebra.
 - Expressions for polynomial, exponential and trigonometric functions;
 - Symbolic derivative.
+
 Code is heavily borrowed from [Math.NET Symbolics](https://github.com/mathnet/mathnet-symbolics).
 
 ## Lapis.Math.LineAlgebra
