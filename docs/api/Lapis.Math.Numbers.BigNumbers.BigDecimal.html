@@ -1,0 +1,2791 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BigDecimal
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BigDecimal
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal">
+  
+  
+  <h1 id="Lapis_Math_Numbers_BigNumbers_BigDecimal" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal" class="text-break">Class BigDecimal
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an arbitrarily large decimal.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BigDecimal</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Numbers.BigNumbers.html">Lapis.Math.Numbers.BigNumbers</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Numbers.dll</h6>
+  <h5 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BigDecimal : Object, IComparable&lt;BigDecimal&gt;, IEquatable&lt;BigDecimal&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_MinusOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.MinusOne">MinusOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number negative one (-1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigDecimal MinusOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>An object whose value is negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_One" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.One">One</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number one (1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigDecimal One</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>An object whose value is one (1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Zero" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number zero (0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigDecimal Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>An object whose value is zero (0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsMinusOne_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsMinusOne*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsMinusOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsMinusOne">IsMinusOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_MinusOne">MinusOne</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMinusOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_MinusOne">MinusOne</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsOne_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsOne*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsOne">IsOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_One">One</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_One">One</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsZero_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsZero*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_IsZero" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.IsZero">IsZero</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_Zero">Zero</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsZero { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html#Lapis_Math_Numbers_BigNumbers_BigDecimal_Zero">Zero</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Sign_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Sign*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Sign" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Sign">Sign</h4>
+  <div class="markdown level1 summary"><p>Gets a number that indicates the sign (negative, positive, or zero) of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Sign { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A number that indicates the sign of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+<p>The value of this object is negative.</p>
+<p>The value of this object is 0 (zero).</p>
+<p>The value of this object is positive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Abs_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Abs*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Abs_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Abs(Lapis.Math.Numbers.BigNumbers.BigDecimal)">Abs(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Returns the absolute value of a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Abs(BigDecimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The absolute value of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Add_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Add*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Add_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Add(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Add(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Add(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arccos_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arccos*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arccos_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arccos(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Arccos(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the arccosine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Arccos(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The arccosine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is greater than 1, or less than -1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arccot_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arccot*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arccot_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arccot(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Arccot(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the arccotangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Arccot(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The arccotangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arcsin_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arcsin*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arcsin_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arcsin(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Arcsin(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the arcsine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Arcsin(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The arcsine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is greater than 1, or less than -1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arctan_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arctan*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Arctan_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Arctan(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Arctan(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the arctangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Arctan(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The arctangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Ceiling_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Ceiling*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Ceiling_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Ceiling(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Ceiling(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the smallest value containing the specified number of fractional digits that is greater than or equal to the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Ceiling(BigDecimal value, long digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The smallest value containing <code data-dev-comment-type="paramref">digits</code> fractional digits that is greater than or equal to <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_CompareTo_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.CompareTo*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_CompareTo_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.CompareTo(Lapis.Math.Numbers.BigNumbers.BigDecimal)">CompareTo(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Compares this instance to a second <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> and returns an integer that indicates whether the value of this instance is less than, equal to, or greater than the value of the specified object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(BigDecimal other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A signed integer value that indicates the relationship of this instance to <code data-dev-comment-type="paramref">other</code>. </p>
+<p>Less than zero, if the current instance is less than <code data-dev-comment-type="paramref">other</code>.</p>
+<p>Zero, if current instance equals <code data-dev-comment-type="paramref">other</code>.</p>
+<p>Greater than zero, if the current instance is greater than <code data-dev-comment-type="paramref">other</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Cos_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Cos*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Cos_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Cos(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Cos(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the cosine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Cos(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The cosine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Cot_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Cot*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Cot_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Cot(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Cot(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the cotangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Cot(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The cotangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p>The sine of <code data-dev-comment-type="paramref">value</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Divide_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Divide*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Divide_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Divide(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Divide(BigDecimal, BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Divide(BigDecimal left, BigDecimal right, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Equals_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Equals_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Equals(Lapis.Math.Numbers.BigNumbers.BigDecimal)">Equals(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(BigDecimal other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">other</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Equals_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Equals_System_Object_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Exp_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Exp*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Exp_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Exp(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Exp(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns e raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Exp(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A number specifying a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The number e raised to the power <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Floor_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Floor*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Floor_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Floor(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Floor(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the largest value containing the specified number of fractional digits that is less than or equal to the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Floor(BigDecimal value, long digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The largest value containing <code data-dev-comment-type="paramref">digits</code> fractional digits that is less than or equal to <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromBigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromBigInteger*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromBigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromBigInteger(Lapis.Math.Numbers.BigNumbers.BigInteger)">FromBigInteger(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromBigInteger(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromInt32_System_Int32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromInt32(System.Int32)">FromInt32(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromInt32(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromInt64*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromInt64_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromInt64(System.Int64)">FromInt64(Int64)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.Int64</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromInt64(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromString_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromString*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromString_System_String_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromString(System.String)">FromString(String)</h4>
+  <div class="markdown level1 summary"><p>Converts the string representation of a number to its <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> equivalent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromString(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A string that contains the number to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that is equivalent to the number specified in the <code data-dev-comment-type="paramref">value</code> parameter. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is not in the correct format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromUInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromUInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromUInt32_System_UInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromUInt32(System.UInt32)">FromUInt32(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.UInt32</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromUInt32(uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromUInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromUInt64*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_FromUInt64_System_UInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.FromUInt64(System.UInt64)">FromUInt64(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.UInt64</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal FromUInt64(ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_GetHashCode_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.GetHashCode*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_GetHashCode" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Ln_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Ln*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Ln_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Ln(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Ln(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the natural (base e) logarithm of a specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Ln(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number whose logarithm is to be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The natural logarithm of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is zero or negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Multiply_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Multiply_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Multiply(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Multiply(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Multiply(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_MultiplyPowerOfTen_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.MultiplyPowerOfTen*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_MultiplyPowerOfTen_Lapis_Math_Numbers_BigNumbers_BigInteger_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.MultiplyPowerOfTen(Lapis.Math.Numbers.BigNumbers.BigInteger,System.Int64)">MultiplyPowerOfTen(BigInteger, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the product of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object multiplied by the specified power of 10.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal MultiplyPowerOfTen(BigInteger value, long scale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">scale</span></td>
+        <td><p>The exponent of the power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">value</code> multiplied by 10 raised to <code data-dev-comment-type="paramref">scale</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Negate_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Negate*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Negate_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Negate(Lapis.Math.Numbers.BigNumbers.BigDecimal)">Negate(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Negate(BigDecimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Pi_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Pi*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Pi_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Pi(System.Int64)">Pi(Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets the ratio of the circumference of a circle to its diameter, π.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Pi(long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The value of π, accurate to <code data-dev-comment-type="paramref">precision</code> decimal places.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Pow_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Pow*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Pow_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Pow(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64,System.Int64)">Pow(BigDecimal, Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Pow(BigDecimal value, long exponent, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The number <code data-dev-comment-type="paramref">value</code> raised to the power <code data-dev-comment-type="paramref">exponent</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> and <code data-dev-comment-type="paramref">exponent</code> are zero.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Root_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Root*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Root_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Root(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64,System.Int64)">Root(BigDecimal, Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the specified root of the number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Root(BigDecimal value, long index, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number whose root is to be found</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The order of the root.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The <code data-dev-comment-type="paramref">index</code>th root of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">index</code> is zero.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Round_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Round*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Round_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Round(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Round(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Rounds a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to a specified number of fractional digits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Round(BigDecimal value, long digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The number nearest to <code data-dev-comment-type="paramref">value</code> that contains a number of fractional digits equal to <code data-dev-comment-type="paramref">digits</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_RoundHalfEven_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.RoundHalfEven*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_RoundHalfEven_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.RoundHalfEven(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">RoundHalfEven(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Rounds a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to a specified number of fractional digits. When a number is halfway between two others, it is rounded toward the nearest even number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal RoundHalfEven(BigDecimal value, long digits)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object to be rounded.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The number nearest to <code data-dev-comment-type="paramref">value</code> that contains a number of fractional digits equal to <code data-dev-comment-type="paramref">digits</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Sin_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Sin*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Sin_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Sin(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Sin(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the sine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Sin(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The sine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Subtract_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Subtract*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Subtract_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Subtract(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Subtract(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object from another <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Subtract(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Tan_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Tan*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_Tan_Lapis_Math_Numbers_BigNumbers_BigDecimal_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.Tan(Lapis.Math.Numbers.BigNumbers.BigDecimal,System.Int64)">Tan(BigDecimal, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the tangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal Tan(BigDecimal value, long precision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>The number of decimal places in the return value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The tangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p>The cosine of <code data-dev-comment-type="paramref">value</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_ToString_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.ToString*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_ToString" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Addition_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Addition*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Addition_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Addition(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Addition(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal operator +(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Multiply_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Multiply_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Multiply(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Multiply(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal operator *(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Subtraction_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_Subtraction_Lapis_Math_Numbers_BigNumbers_BigDecimal_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_Subtraction(Lapis.Math.Numbers.BigNumbers.BigDecimal,Lapis.Math.Numbers.BigNumbers.BigDecimal)">Subtraction(BigDecimal, BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object from another <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal operator -(BigDecimal left, BigDecimal right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_UnaryNegation_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_UnaryNegation_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_UnaryNegation(Lapis.Math.Numbers.BigNumbers.BigDecimal)">UnaryNegation(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal operator -(BigDecimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_UnaryPlus_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigDecimal_op_UnaryPlus_Lapis_Math_Numbers_BigNumbers_BigDecimal_" data-uid="Lapis.Math.Numbers.BigNumbers.BigDecimal.op_UnaryPlus(Lapis.Math.Numbers.BigNumbers.BigDecimal)">UnaryPlus(BigDecimal)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigDecimal operator +(BigDecimal value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigDecimal.html">BigDecimal</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

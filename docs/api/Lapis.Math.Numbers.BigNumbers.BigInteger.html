@@ -1,0 +1,2402 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BigInteger
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BigInteger
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger">
+  
+  
+  <h1 id="Lapis_Math_Numbers_BigNumbers_BigInteger" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger" class="text-break">Class BigInteger
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an arbitrarily large interger.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BigInteger</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Numbers.BigNumbers.html">Lapis.Math.Numbers.BigNumbers</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Numbers.dll</h6>
+  <h5 id="Lapis_Math_Numbers_BigNumbers_BigInteger_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BigInteger : Object, IComparable&lt;BigInteger&gt;, IEquatable&lt;BigInteger&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_MinusOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.MinusOne">MinusOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number negative one (-1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigInteger MinusOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>An object whose value is negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_One" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.One">One</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number one (1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigInteger One</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>An object whose value is one (1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Zero" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number zero (0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigInteger Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>An object whose value is zero (0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsEven_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsEven*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsEven" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsEven">IsEven</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is an even number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEven { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is an even number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsMinusOne_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsMinusOne*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsMinusOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsMinusOne">IsMinusOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_MinusOne">MinusOne</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMinusOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_MinusOne">MinusOne</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsOdd_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsOdd*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsOdd" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsOdd">IsOdd</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is an odd number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOdd { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is an odd number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsOne_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsOne*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsOne" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsOne">IsOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_One">One</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_One">One</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsZero_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsZero*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_IsZero" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.IsZero">IsZero</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_Zero">Zero</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsZero { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html#Lapis_Math_Numbers_BigNumbers_BigInteger_Zero">Zero</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Sign_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Sign*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Sign" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Sign">Sign</h4>
+  <div class="markdown level1 summary"><p>Gets a number that indicates the sign (negative, positive, or zero) of the current <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Sign { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A number that indicates the sign of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+<p>The value of this object is negative.</p>
+<p>The value of this object is 0 (zero).</p>
+<p>The value of this object is positive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Abs_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Abs*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Abs_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Abs(Lapis.Math.Numbers.BigNumbers.BigInteger)">Abs(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Returns the absolute value of a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Abs(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The absolute value of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Add_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Add*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Add_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Add(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Add(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Add(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Binomial_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Binomial*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Binomial_System_Int64_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Binomial(System.Int64,System.Int64)">Binomial(Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the binomial coefficients of the specified two integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Binomial(long n, long m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>An integer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">m</span></td>
+        <td><p>The other integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The binomial coefficients of <code data-dev-comment-type="paramref">n</code> and <code data-dev-comment-type="paramref">m</code>. (<code data-dev-comment-type="paramref">n</code>C<code data-dev-comment-type="paramref">m</code>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_CompareTo_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.CompareTo*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_CompareTo_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.CompareTo(Lapis.Math.Numbers.BigNumbers.BigInteger)">CompareTo(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Compares this instance to a second <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> and returns an integer that indicates whether the value of this instance is less than, equal to, or greater than the value of the specified object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(BigInteger other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A signed integer value that indicates the relationship of this instance to <code data-dev-comment-type="paramref">other</code>. </p>
+<p>Less than zero, if the current instance is less than <code data-dev-comment-type="paramref">other</code>.</p>
+<p>Zero, if current instance equals <code data-dev-comment-type="paramref">other</code>.</p>
+<p>Greater than zero, if the current instance is greater than <code data-dev-comment-type="paramref">other</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_DividePowerOfTen_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.DividePowerOfTen*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_DividePowerOfTen_Lapis_Math_Numbers_BigNumbers_BigInteger_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.DividePowerOfTen(Lapis.Math.Numbers.BigNumbers.BigInteger,System.Int64)">DividePowerOfTen(BigInteger, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the result of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object divided by the specified power of 10.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger DividePowerOfTen(BigInteger value, long num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>The exponent of the power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of <code data-dev-comment-type="paramref">value</code> divided by 10 raised to <code data-dev-comment-type="paramref">num</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_DivideRemainder_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.DivideRemainder*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_DivideRemainder_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger__" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.DivideRemainder(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger@)">DivideRemainder(BigInteger, BigInteger, out BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object, returns the result, and returns the remainder in an output parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger DivideRemainder(BigInteger left, BigInteger right, out BigInteger reminder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">reminder</span></td>
+        <td><p>When this method returns, contains a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that represents the remainder from the division. This parameter is passed uninitialized..</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The quotient of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Equals_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Equals_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Equals(Lapis.Math.Numbers.BigNumbers.BigInteger)">Equals(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(BigInteger other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">other</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Equals_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Equals_System_Object_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Factorial_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Factorial*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Factorial_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Factorial(System.Int64)">Factorial(Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the factorial of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Factorial(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The factorial of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromInt32_System_Int32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromInt32(System.Int32)">FromInt32(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger FromInt32(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromInt64*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromInt64_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromInt64(System.Int64)">FromInt64(Int64)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.Int64</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger FromInt64(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromString_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromString*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromString_System_String_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromString(System.String)">FromString(String)</h4>
+  <div class="markdown level1 summary"><p>Converts the string representation of a number to its <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> equivalent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger FromString(string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A string that contains the number to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that is equivalent to the number specified in the <code data-dev-comment-type="paramref">value</code> parameter. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.FormatException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is not in the correct format.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromUInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromUInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromUInt32_System_UInt32_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromUInt32(System.UInt32)">FromUInt32(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.UInt32</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger FromUInt32(uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromUInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromUInt64*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_FromUInt64_System_UInt64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.FromUInt64(System.UInt64)">FromUInt64(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.UInt64</span> value to a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger FromUInt64(ulong value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Gcd(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of two <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Gcd(BigInteger x, BigInteger y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_Lapis_Math_Numbers_BigNumbers_BigInteger___" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd(Lapis.Math.Numbers.BigNumbers.BigInteger[])">Gcd(BigInteger[])</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of an array of <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Gcd(params BigInteger[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Gcd_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_BigNumbers_BigInteger__" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Gcd(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.BigNumbers.BigInteger})">Gcd(IEnumerable&lt;BigInteger&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of a collection of <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Gcd(IEnumerable&lt;BigInteger&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_GetHashCode_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.GetHashCode*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_GetHashCode" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Lcm(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of two <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Lcm(BigInteger x, BigInteger y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_Lapis_Math_Numbers_BigNumbers_BigInteger___" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm(Lapis.Math.Numbers.BigNumbers.BigInteger[])">Lcm(BigInteger[])</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of an array of <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Lcm(params BigInteger[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Lcm_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_BigNumbers_BigInteger__" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Lcm(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.BigNumbers.BigInteger})">Lcm(IEnumerable&lt;BigInteger&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of a collection of <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Lcm(IEnumerable&lt;BigInteger&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Multiply_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Multiply_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Multiply(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Multiply(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Multiply(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_MultiplyPowerOfTen_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.MultiplyPowerOfTen*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_MultiplyPowerOfTen_Lapis_Math_Numbers_BigNumbers_BigInteger_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.MultiplyPowerOfTen(Lapis.Math.Numbers.BigNumbers.BigInteger,System.Int64)">MultiplyPowerOfTen(BigInteger, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns the product of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object multiplied by the specified power of 10.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger MultiplyPowerOfTen(BigInteger value, long num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>The exponent of the power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">value</code> multiplied by 10 raised to <code data-dev-comment-type="paramref">num</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Negate_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Negate*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Negate_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Negate(Lapis.Math.Numbers.BigNumbers.BigInteger)">Negate(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Negate(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_PositivePow_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.PositivePow*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_PositivePow_Lapis_Math_Numbers_BigNumbers_BigInteger_System_Int64_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.PositivePow(Lapis.Math.Numbers.BigNumbers.BigInteger,System.Int64)">PositivePow(BigInteger, Int64)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified positive integral power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger PositivePow(BigInteger base, long exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The number <code data-dev-comment-type="paramref">base</code> raised to the power <code data-dev-comment-type="paramref">exponent</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">exponent</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> and <code data-dev-comment-type="paramref">exponent</code> are zero.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_Subtract_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Subtract*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_Subtract_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.Subtract(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Subtract(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object from another <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger Subtract(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_ToString_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.ToString*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_ToString" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Addition_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Addition*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Addition_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Addition(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Addition(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator +(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Division_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Division*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Division_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Division(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Division(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator /(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Modulus_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Modulus*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Modulus_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Modulus(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Modulus(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Returns the remainder that results from division with two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator %(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The remainder that results from the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Multiply_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Multiply_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Multiply(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Multiply(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator *(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Subtraction_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_Subtraction_Lapis_Math_Numbers_BigNumbers_BigInteger_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_Subtraction(Lapis.Math.Numbers.BigNumbers.BigInteger,Lapis.Math.Numbers.BigNumbers.BigInteger)">Subtraction(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object from another <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator -(BigInteger left, BigInteger right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_UnaryNegation_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_UnaryNegation_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_UnaryNegation(Lapis.Math.Numbers.BigNumbers.BigInteger)">UnaryNegation(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator -(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_UnaryPlus_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_Numbers_BigNumbers_BigInteger_op_UnaryPlus_Lapis_Math_Numbers_BigNumbers_BigInteger_" data-uid="Lapis.Math.Numbers.BigNumbers.BigInteger.op_UnaryPlus(Lapis.Math.Numbers.BigNumbers.BigInteger)">UnaryPlus(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger operator +(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.BigNumbers.BigInteger.html">BigInteger</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

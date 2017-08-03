@@ -1,0 +1,1009 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Quantity
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Quantity
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Measurement.Quantity">
+  
+  
+  <h1 id="Lapis_Math_Measurement_Quantity" data-uid="Lapis.Math.Measurement.Quantity" class="text-break">Class Quantity
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a number with a unit of measure.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Quantity</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Measurement.html">Lapis.Math.Measurement</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Measurement.dll</h6>
+  <h5 id="Lapis_Math_Measurement_Quantity_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Quantity : Object, IEquatable&lt;Quantity&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Unit_" data-uid="Lapis.Math.Measurement.Quantity.Unit*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Unit" data-uid="Lapis.Math.Measurement.Quantity.Unit">Unit</h4>
+  <div class="markdown level1 summary"><p>Gets the unit of measure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit Unit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Unit.html">Unit</a></td>
+        <td><p>The unit of measure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Value_" data-uid="Lapis.Math.Measurement.Quantity.Value*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Value" data-uid="Lapis.Math.Measurement.Quantity.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets the value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Create_" data-uid="Lapis.Math.Measurement.Quantity.Create*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Create_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Measurement_Unit_" data-uid="Lapis.Math.Measurement.Quantity.Create(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Measurement.Unit)">Create(Expression, Unit)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object using the specified value and unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity Create(Expression value, Unit unit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>The unit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object of <code data-dev-comment-type="paramref">value</code> with the unit <code data-dev-comment-type="paramref">unit</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Equals_" data-uid="Lapis.Math.Measurement.Quantity.Equals*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Equals_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.Equals(Lapis.Math.Measurement.Quantity)">Equals(Quantity)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object have the same value and unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Quantity value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value and unit of <code data-dev-comment-type="paramref">value</code> are the same as the value and unit of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Equals_" data-uid="Lapis.Math.Measurement.Quantity.Equals*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Equals_System_Object_" data-uid="Lapis.Math.Measurement.Quantity.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be a <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object, have the same value and unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> and its value and unit are the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_GetHashCode_" data-uid="Lapis.Math.Measurement.Quantity.GetHashCode*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_GetHashCode" data-uid="Lapis.Math.Measurement.Quantity.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_Pow_" data-uid="Lapis.Math.Measurement.Quantity.Pow*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_Pow_Lapis_Math_Measurement_Quantity_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.Measurement.Quantity.Pow(Lapis.Math.Measurement.Quantity,Lapis.Math.Algebra.Expressions.Expression)">Pow(Quantity, Expression)</h4>
+  <div class="markdown level1 summary"><p>Returns the specified quantity raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity Pow(Quantity left, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The quantity to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The expression that specifies the power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The quantity of <code data-dev-comment-type="paramref">left</code> raised to the power <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_ToString_" data-uid="Lapis.Math.Measurement.Quantity.ToString*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_ToString" data-uid="Lapis.Math.Measurement.Quantity.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Addition_" data-uid="Lapis.Math.Measurement.Quantity.op_Addition*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Addition_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Addition(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Addition(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator +(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first quantity to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second quantity to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>The dimensions of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Division_" data-uid="Lapis.Math.Measurement.Quantity.op_Division*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Division_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Division(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Division(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object by another specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator /(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The quantity to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The quantity to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Equality_" data-uid="Lapis.Math.Measurement.Quantity.op_Equality*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Equality_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Equality(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Equality(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> objects have the same value and unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value and unit of <code data-dev-comment-type="paramref">left</code> are the same as the value and unit of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Implicit_" data-uid="Lapis.Math.Measurement.Quantity.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Implicit_Lapis_Math_Algebra_Expressions_Expression__Lapis_Math_Measurement_Quantity" data-uid="Lapis.Math.Measurement.Quantity.op_Implicit(Lapis.Math.Algebra.Expressions.Expression)~Lapis.Math.Measurement.Quantity">Implicit(Expression to Quantity)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of a dimensionless value to a <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Quantity(Expression value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Inequality_" data-uid="Lapis.Math.Measurement.Quantity.op_Inequality*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Inequality_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Inequality(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Inequality(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> objects don&apos;t have the same value and unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value and unit of <code data-dev-comment-type="paramref">left</code> are not the same as the value and unit of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Multiply_" data-uid="Lapis.Math.Measurement.Quantity.op_Multiply*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Multiply_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Multiply(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Multiply(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator *(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first quantity to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second quantity to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_Subtraction_" data-uid="Lapis.Math.Measurement.Quantity.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_Subtraction_Lapis_Math_Measurement_Quantity_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_Subtraction(Lapis.Math.Measurement.Quantity,Lapis.Math.Measurement.Quantity)">Subtraction(Quantity, Quantity)</h4>
+  <div class="markdown level1 summary"><p>Subtracts an <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object from another <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator -(Quantity left, Quantity right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The quantity to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The quantity to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p>The dimensions of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_UnaryNegation_" data-uid="Lapis.Math.Measurement.Quantity.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_UnaryNegation_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_UnaryNegation(Lapis.Math.Measurement.Quantity)">UnaryNegation(Quantity)</h4>
+  <div class="markdown level1 summary"><p>Negates the <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator -(Quantity value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The quantity to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Measurement_Quantity_op_UnaryPlus_" data-uid="Lapis.Math.Measurement.Quantity.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_Measurement_Quantity_op_UnaryPlus_Lapis_Math_Measurement_Quantity_" data-uid="Lapis.Math.Measurement.Quantity.op_UnaryPlus(Lapis.Math.Measurement.Quantity)">UnaryPlus(Quantity)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quantity operator +(Quantity value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The quantity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Measurement.Quantity.html">Quantity</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

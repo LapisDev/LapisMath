@@ -286,3 +286,11 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+src/Lapis.Math.Algebra/ExceptionResource.Designer.cs
+src/Lapis.Math.Algebra/IdentifierResource.Designer.cs
+src/Lapis.Math.LinearAlgebra/ExceptionResource.Designer.cs
+src/Lapis.Math.Measurement/ExceptionResource.Designer.cs
+src/Lapis.Math.Numbers/ExceptionResource.Designer.cs
+src/Lapis.Math.Numbers/IdentifierResource.Designer.cs
+src/Lapis.Math.Numerical/ExceptionResource.Designer.cs
+src/Lapis.Math.Statistical/ExceptionResource.Designer.cs

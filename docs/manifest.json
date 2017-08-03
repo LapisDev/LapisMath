@@ -1,0 +1,685 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Projects/Lapis.Math/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Calculus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Calculus.html",
+          "hash": "C8GFoLi2vY5QR/BoFwk1UA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Elementary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Elementary.html",
+          "hash": "gC57lDcWodV6WZTJcvJVkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Evaluating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Evaluating.html",
+          "hash": "WJpth66vctdZlRpkxW9yUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Exponential.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Exponential.html",
+          "hash": "Dr7aMkqo1FjRJhTFiTyr4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Fraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Fraction.html",
+          "hash": "/7sRkAGnoUH28Bwp9EUQXQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Pattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Pattern.html",
+          "hash": "u93UgqVL3goc2ZWyNP6iBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Polynomial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Polynomial.html",
+          "hash": "J745TMVIziyWT5cWzanUwA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Structure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Structure.html",
+          "hash": "2JSkXTTuQj+/chvAOg8UBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.Trigonometric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.Trigonometric.html",
+          "hash": "6p0n8pC7+lwOc0MdVVTOqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Arithmetics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Arithmetics.html",
+          "hash": "rrQ2n3fkMGh1NZSXVFaz4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.ComplexInfinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.ComplexInfinity.html",
+          "hash": "hOK6z2HCEqbSylUxIe4Gnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Expression.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Expression.html",
+          "hash": "P3SAzyGwLsEqejso5jRdIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.ExpressionFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.ExpressionFormat.html",
+          "hash": "Q+1VMOeUD9nh5nYgvW9Uxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Function.html",
+          "hash": "V+ZYJVJSS/leqGVMl1sI4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.MultiArgumentFunction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.MultiArgumentFunction.html",
+          "hash": "tSLYz+EcMYoVU9AftRV+vQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.NegativeInfinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.NegativeInfinity.html",
+          "hash": "TPJHYnmmXoflqEAKWnPI9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Number.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Number.html",
+          "hash": "dMisY2KMEj81LtOGR1T37g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.PositiveInfinity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.PositiveInfinity.html",
+          "hash": "lzTez61Pmt7HCi1rfhByFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Power.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Power.html",
+          "hash": "HumrcjB9TD4PsXw8QK5qUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Product.html",
+          "hash": "1H+G92ZIUHUcrxEdcQ2rCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Sum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Sum.html",
+          "hash": "aHItWb1I+1RKN8wKpRkuAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Symbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Symbol.html",
+          "hash": "U+bmaFsuzOeYrwTemP+b+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.Undefined.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.Undefined.html",
+          "hash": "/KQjGCvctxqw+Aw73GKqRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Algebra.Expressions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Algebra.Expressions.html",
+          "hash": "RXU9E0LK+IEroa6egSrn8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.LinearAlgebra.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.LinearAlgebra.Matrix.html",
+          "hash": "swEvK2gppC1jPK3nhzei6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.LinearAlgebra.Vector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.LinearAlgebra.Vector.html",
+          "hash": "aCw2C7NuvCEflEwSoZsbqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.LinearAlgebra.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.LinearAlgebra.html",
+          "hash": "p7lAc9Qkls24oa4Ygq+iow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.Extensions.html",
+          "hash": "X1flVLuEs/zPSPkpZbG/sQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.PhysicalConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.PhysicalConstants.html",
+          "hash": "h7lbMf5QPaUSnreiij+HQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.Quantity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.Quantity.html",
+          "hash": "GZE5zZXQhZEW/HgE2+gGmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.SI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.SI.html",
+          "hash": "TPRhUj7UyTDQTba4mOcPIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.Unit.html",
+          "hash": "MQw2EK7/T49vFJxk/nWFcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Measurement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Measurement.html",
+          "hash": "P1binMDPy2HjZtxz5VlCvA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.BigNumbers.BigDecimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.BigNumbers.BigDecimal.html",
+          "hash": "KcsjfaXIu6d5U3st800eaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.BigNumbers.BigInteger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.BigNumbers.BigInteger.html",
+          "hash": "NFaQ9qEcQy1Gw1Wpajn3Ug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.BigNumbers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.BigNumbers.html",
+          "hash": "9zpqUQV/+7ifGVt4bNV+Vw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.Complex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.Complex.html",
+          "hash": "TPRQB79f0qXMktt0vs1Ckg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.FloatingPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.FloatingPoint.html",
+          "hash": "/bU1mw5sUBd7igD12V8rPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.Fraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.Fraction.html",
+          "hash": "N92J0Ws9De91xx1vBaaUPA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.Integer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.Integer.html",
+          "hash": "wcvJgIAWC86aGrEBmSpmkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.Rational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.Rational.html",
+          "hash": "6aRmjCBzBgOHB9ZvqtjgIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.Real.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.Real.html",
+          "hash": "kB7GtNbSi56SwXF9O/9m8Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numbers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numbers.html",
+          "hash": "XvlFOaS31wmwgBNiPkTcIg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numerical.Integral.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numerical.Integral.html",
+          "hash": "psQ+bLVn3vX95+UesUxLGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numerical.Solver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numerical.Solver.html",
+          "hash": "mUYkjTWNptyUo9+e3/6D9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Numerical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Numerical.html",
+          "hash": "PYtOPONaimbXByrSRI4I5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Statistical.Fitting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Statistical.Fitting.html",
+          "hash": "qpdnGRO0E10RoGWPptbM4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Statistical.Statistics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Statistical.Statistics.html",
+          "hash": "xSnc1J3nhkupjf1X5EnU+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.Math.Statistical.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.Math.Statistical.html",
+          "hash": "RJSpWkEuPklfhsckMRUgxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "GW6nxpgJSKl5nVevoGKuQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "hUe+klvFoMXrftPvtE8Eqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "KgJHin9c601YDbuE/tzn6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Lh0kbVYcr050n2+P09YWMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {}
+}

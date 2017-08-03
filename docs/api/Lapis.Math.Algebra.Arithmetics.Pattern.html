@@ -1,0 +1,552 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Pattern
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Pattern
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern">
+  
+  
+  <h1 id="Lapis_Math_Algebra_Arithmetics_Pattern" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern" class="text-break">Class Pattern
+  </h1>
+  <div class="markdown level0 summary"><p>Provides methods for pattern matching for algebraic expressions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Pattern</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Algebra.Arithmetics.html">Lapis.Math.Algebra.Arithmetics</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Algebra.dll</h6>
+  <h5 id="Lapis_Math_Algebra_Arithmetics_Pattern_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Pattern : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_IsInteger_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsInteger*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_IsInteger_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Numbers_Integer__" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsInteger(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Numbers.Integer@)">IsInteger(Expression, out Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression is an integer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInteger(this Expression expression, out Integer integer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">integer</span></td>
+        <td><p>When this method returns, contains the integer that <code data-dev-comment-type="paramref">expression</code> represents. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">integer</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> represents an integer; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_IsNegativeIntegerPower_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsNegativeIntegerPower*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_IsNegativeIntegerPower_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression__Lapis_Math_Numbers_Integer__" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsNegativeIntegerPower(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression@,Lapis.Math.Numbers.Integer@)">IsNegativeIntegerPower(Expression, out Expression, out Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression is a negative integer exponentiation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNegativeIntegerPower(this Expression expression, out Expression base, out Integer exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>When this method returns, contains the base of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">base</code> will be overwritten.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>When this method returns, contains the exponent of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">exponent</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> represents a negative integer exponentiation; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_IsNegativeRationalPower_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsNegativeRationalPower*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_IsNegativeRationalPower_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression__Lapis_Math_Numbers_Rational__" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsNegativeRationalPower(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression@,Lapis.Math.Numbers.Rational@)">IsNegativeRationalPower(Expression, out Expression, out Rational)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression is a negative rational exponentiation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNegativeRationalPower(this Expression expression, out Expression base, out Rational exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>When this method returns, contains the base of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">base</code> will be overwritten.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Rational.html">Rational</a></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>When this method returns, contains the exponent of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">exponent</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> represents a negative rational exponentiation; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_IsPositiveIntegerPower_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsPositiveIntegerPower*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_IsPositiveIntegerPower_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression__Lapis_Math_Numbers_Integer__" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsPositiveIntegerPower(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression@,Lapis.Math.Numbers.Integer@)">IsPositiveIntegerPower(Expression, out Expression, out Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression is a positive integer exponentiation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsPositiveIntegerPower(this Expression expression, out Expression base, out Integer exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>When this method returns, contains the base of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">base</code> will be overwritten.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>When this method returns, contains the exponent of the exponential expression. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">exponent</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> represents a positive integer exponentiation; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_IsRational_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsRational*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_IsRational_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Numbers_Rational__" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.IsRational(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Numbers.Rational@)">IsRational(Expression, out Rational)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression is a rational number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsRational(this Expression expression, out Rational rational)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Rational.html">Rational</a></td>
+        <td><span class="parametername">rational</span></td>
+        <td><p>When this method returns, contains the rational number that <code data-dev-comment-type="paramref">expression</code> represents. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">rational</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> represents a rational number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Algebra_Arithmetics_Pattern_Match_" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.Match*"></a>
+  <h4 id="Lapis_Math_Algebra_Arithmetics_Pattern_Match_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression_System_Collections_Generic_IDictionary_Lapis_Math_Algebra_Expressions_Symbol_Lapis_Math_Algebra_Expressions_Expression___" data-uid="Lapis.Math.Algebra.Arithmetics.Pattern.Match(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression,System.Collections.Generic.IDictionary{Lapis.Math.Algebra.Expressions.Symbol,Lapis.Math.Algebra.Expressions.Expression}@)">Match(Expression, Expression, out IDictionary&lt;Symbol, Expression&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns a value that indicates whether the algebraic expression matches the specified pattern.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Match(this Expression expression, Expression pattern, out IDictionary&lt;Symbol, Expression&gt; result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">expression</span></td>
+        <td><p>The algebraic expression.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">pattern</span></td>
+        <td><p>The expression of the pattern.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<a class="xref" href="Lapis.Math.Algebra.Expressions.Symbol.html">Symbol</a>, <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td><p>When this method returns, contains the symbols in the pattern and the matched sub-expressions. This parameter is passed uninitialized; any value originally supplied in <code data-dev-comment-type="paramref">result</code> will be overwritten.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">expression</code> is matched with <pararefm name="pattern"></pararefm>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

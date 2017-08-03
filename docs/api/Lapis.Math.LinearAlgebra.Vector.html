@@ -1,0 +1,1340 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Vector
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Vector
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.LinearAlgebra.Vector">
+  
+  
+  <h1 id="Lapis_Math_LinearAlgebra_Vector" data-uid="Lapis.Math.LinearAlgebra.Vector" class="text-break">Class Vector
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a vector.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Vector</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.LinearAlgebra.html">Lapis.Math.LinearAlgebra</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.LinearAlgebra.dll</h6>
+  <h5 id="Lapis_Math_LinearAlgebra_Vector_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Vector : Object, IEnumerable&lt;Expression&gt;, IEnumerable, IEquatable&lt;Vector&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Dimension_" data-uid="Lapis.Math.LinearAlgebra.Vector.Dimension*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Dimension" data-uid="Lapis.Math.LinearAlgebra.Vector.Dimension">Dimension</h4>
+  <div class="markdown level1 summary"><p>Gets the dimension of the vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Dimension { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The dimension of the vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Element_" data-uid="Lapis.Math.LinearAlgebra.Vector.Element*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Element_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Vector.Element(System.Int32)">Element[Int32]</h4>
+  <div class="markdown level1 summary"><p>Gets the element at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression this[int index] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The one-based index of the element to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The element at the specified index.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">index</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_CosAngle_" data-uid="Lapis.Math.LinearAlgebra.Vector.CosAngle*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_CosAngle_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.CosAngle(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">CosAngle(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Returns the cosine of the angle of the two specified vectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression CosAngle(Vector x, Vector y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The cosine of the angle of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Equal_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Equal_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equal(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Equal(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Equals_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equals*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Equals_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equals(Lapis.Math.LinearAlgebra.Vector)">Equals(Vector)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Vector value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">value</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Equals_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equals*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Equals_System_Object_" data-uid="Lapis.Math.LinearAlgebra.Vector.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be an <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_FromArray_" data-uid="Lapis.Math.LinearAlgebra.Vector.FromArray*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_FromArray_Lapis_Math_Algebra_Expressions_Expression___" data-uid="Lapis.Math.LinearAlgebra.Vector.FromArray(Lapis.Math.Algebra.Expressions.Expression[])">FromArray(Expression[])</h4>
+  <div class="markdown level1 summary"><p>Creates an instance of the <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> class using the specified <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a> array containing the elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector FromArray(params Expression[] elements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>[]</td>
+        <td><span class="parametername">elements</span></td>
+        <td><p>The array whose elements are copied to the new <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> whose elements are <code data-dev-comment-type="paramref">elements</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">elements</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_GetEnumerator_" data-uid="Lapis.Math.LinearAlgebra.Vector.GetEnumerator*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_GetEnumerator" data-uid="Lapis.Math.LinearAlgebra.Vector.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Returns an enumerator that iterates through the elements of the <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;Expression&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>&gt;</td>
+        <td><p>An enumerator for the elements of the <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_GetHashCode_" data-uid="Lapis.Math.LinearAlgebra.Vector.GetHashCode*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_GetHashCode" data-uid="Lapis.Math.LinearAlgebra.Vector.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Map_" data-uid="Lapis.Math.LinearAlgebra.Vector.Map*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Map_System_Func_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression__" data-uid="Lapis.Math.LinearAlgebra.Vector.Map(System.Func{Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression})">Map(Func&lt;Expression, Expression&gt;)</h4>
+  <div class="markdown level1 summary"><p>Maps each element in the vector into a new element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Map(Func&lt;Expression, Expression&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>A transform function to apply to each element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>A vector whose elements are the result of invoking the transform function on each element in the current vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_Norm_" data-uid="Lapis.Math.LinearAlgebra.Vector.Norm*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_Norm_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.Norm(Lapis.Math.LinearAlgebra.Vector)">Norm(Vector)</h4>
+  <div class="markdown level1 summary"><p>Returns the modulus of the specified vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Norm(Vector value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The vector</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The modulus of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_ToString_" data-uid="Lapis.Math.LinearAlgebra.Vector.ToString*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_ToString" data-uid="Lapis.Math.LinearAlgebra.Vector.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Addition_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Addition*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Addition_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Addition(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Addition(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Adds each element in one vector with its corresponding element in a second vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator +(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first vector to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second vector  to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Equality_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Equality*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Equality_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Equality(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Equality(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Explicit_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Explicit*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Explicit_Lapis_Math_Algebra_Expressions_Expression____Lapis_Math_LinearAlgebra_Vector" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Explicit(Lapis.Math.Algebra.Expressions.Expression[])~Lapis.Math.LinearAlgebra.Vector">Explicit(Expression[] to Vector)</h4>
+  <div class="markdown level1 summary"><p>Defines an explicit conversion of an <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a> array to a <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator Vector(Expression[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The array whose elements are copied to the new <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> whose elements are <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is empty or has only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Inequality_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Inequality*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Inequality_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Inequality(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Inequality(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> objects don&apos;t have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is not the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.LinearAlgebra.Vector)">Multiply(Expression, Vector)</h4>
+  <div class="markdown level1 summary"><p>Returns the vector that results from scaling all the elements of a specified vector by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Expression left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The scaling value to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The vector to scale.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The scaled vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.Algebra.Expressions.Expression)">Multiply(Vector, Expression)</h4>
+  <div class="markdown level1 summary"><p>Returns the vector that results from scaling all the elements of a specified vector by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator *(Vector left, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The vector to scale.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The scaling value to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The scaled vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Multiply_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Multiply(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Multiply(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Returns the dot product of two vectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression operator *(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first vector.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second product.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The dot product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_Subtraction_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_Subtraction_Lapis_Math_LinearAlgebra_Vector_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_Subtraction(Lapis.Math.LinearAlgebra.Vector,Lapis.Math.LinearAlgebra.Vector)">Subtraction(Vector, Vector)</h4>
+  <div class="markdown level1 summary"><p>Subtracts each element in a second vector from its corresponding element in a first vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector left, Vector right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first vector to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second vector to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_UnaryNegation_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_UnaryNegation_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_UnaryNegation(Lapis.Math.LinearAlgebra.Vector)">UnaryNegation(Vector)</h4>
+  <div class="markdown level1 summary"><p>Negates the <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> by multiplying all its values by -1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator -(Vector value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The vector to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Vector_op_UnaryPlus_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Vector_op_UnaryPlus_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Vector.op_UnaryPlus(Lapis.Math.LinearAlgebra.Vector)">UnaryPlus(Vector)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector operator +(Vector value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

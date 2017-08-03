@@ -1,0 +1,4177 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Matrix
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Matrix
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.LinearAlgebra.Matrix">
+  
+  
+  <h1 id="Lapis_Math_LinearAlgebra_Matrix" data-uid="Lapis.Math.LinearAlgebra.Matrix" class="text-break">Class Matrix
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a matrix.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Matrix</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.LinearAlgebra.html">Lapis.Math.LinearAlgebra</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.LinearAlgebra.dll</h6>
+  <h5 id="Lapis_Math_LinearAlgebra_Matrix_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Matrix : Object, IEquatable&lt;Matrix&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_ColumnCount_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ColumnCount*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_ColumnCount" data-uid="Lapis.Math.LinearAlgebra.Matrix.ColumnCount">ColumnCount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of columns of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ColumnCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of columns of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Element_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Element*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Element_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Element(System.Int32,System.Int32)">Element[Int32, Int32]</h4>
+  <div class="markdown level1 summary"><p>Gets the element at the specified row and column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Expression this[int row, int column] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of row of the element to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of column of the element to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The element at the specified row and column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsDiagonal_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsDiagonal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsDiagonal" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsDiagonal">IsDiagonal</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is a diagonal matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDiagonal { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is a diagonal matrix; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsIdentity_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsIdentity*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsIdentity" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsIdentity">IsIdentity</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is an identity matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdentity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is an identity matrix; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsLowerTriangle_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsLowerTriangle*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsLowerTriangle" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsLowerTriangle">IsLowerTriangle</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is a lower triangle matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLowerTriangle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is a lower triangle matrix; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsSquare_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsSquare*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsSquare" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsSquare">IsSquare</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is a square.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSquare { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is a square matrix; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsSymmetric_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsSymmetric*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsSymmetric" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsSymmetric">IsSymmetric</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is symmetric.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSymmetric { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is symmetric; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsUpperTriangle_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsUpperTriangle*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsUpperTriangle" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsUpperTriangle">IsUpperTriangle</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the matrix is an upper triangle matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUpperTriangle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the matrix is an upper triangle matrix; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RowCount_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowCount*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RowCount" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowCount">RowCount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of rows of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RowCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number of rows of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Block_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Block*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Block_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Block(System.Int32,System.Int32,System.Int32,System.Int32)">Block(Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the sub-matrix of the matrix with the specified rows and columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Block(int rowStart, int rowEnd, int columnStart, int columnEnd)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rowStart</span></td>
+        <td><p>The one-based index of the first row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rowEnd</span></td>
+        <td><p>The one-based index of the last row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columnStart</span></td>
+        <td><p>The one-based index of the first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columnEnd</span></td>
+        <td><p>The one-based index of the last column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The sub-matrix consisted of <code data-dev-comment-type="paramref">rowStart</code>-<code data-dev-comment-type="paramref">rowEnd</code>th rows and <code data-dev-comment-type="paramref">columnStart</code>-<code data-dev-comment-type="paramref">columnEnd</code>th columns.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rowStart</code> or <code data-dev-comment-type="paramref">rowEnd</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">columnStart</code> or <code data-dev-comment-type="paramref">columnEnd</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">rowStart</code> is greater than <code data-dev-comment-type="paramref">rowEnd</code>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">columnStart</code> is greater than <code data-dev-comment-type="paramref">columnEnd</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Cofactor_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Cofactor*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Cofactor_Lapis_Math_LinearAlgebra_Matrix_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Cofactor(Lapis.Math.LinearAlgebra.Matrix,System.Int32,System.Int32)">Cofactor(Matrix, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the cofactor of the matrix by removing one row and one column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Cofactor(Matrix matrix, int row, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the row to be removed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of the dolumn to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The cofactor of <code data-dev-comment-type="paramref">matrix</code> by removing the <code data-dev-comment-type="paramref">row</code>th row and the <code data-dev-comment-type="paramref">column</code>th column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is not a square matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Column_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Column*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Column_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Column(System.Int32)">Column(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the column at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Column(int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of the column get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The <code data-dev-comment-type="paramref">column</code>th column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Determinant_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Determinant*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Determinant_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Determinant(Lapis.Math.LinearAlgebra.Matrix)">Determinant(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Calculates the determinant of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Determinant(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The determinant of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is not a square matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Diagonal_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Diagonal" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal">Diagonal()</h4>
+  <div class="markdown level1 summary"><p>Returns the diagonal part of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Diagonal()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The diagonal part of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The matrix is not a square matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Diagonal_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Diagonal_Lapis_Math_Algebra_Expressions_Expression___" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal(Lapis.Math.Algebra.Expressions.Expression[])">Diagonal(Expression[])</h4>
+  <div class="markdown level1 summary"><p>Creates a diagonal matrix using the specified <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a> array containing the elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Diagonal(params Expression[] diagonal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>[]</td>
+        <td><span class="parametername">diagonal</span></td>
+        <td><p>The array whose elements are copied to the new matrix as diagonal elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A diagonal matrix whose elements are <code data-dev-comment-type="paramref">diagonal</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">diagonal</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">diagonal</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Diagonal_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Diagonal_System_Collections_Generic_IEnumerable_Lapis_Math_Algebra_Expressions_Expression__" data-uid="Lapis.Math.LinearAlgebra.Matrix.Diagonal(System.Collections.Generic.IEnumerable{Lapis.Math.Algebra.Expressions.Expression})">Diagonal(IEnumerable&lt;Expression&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a diagonal matrix using the specified <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> containing the elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Diagonal(IEnumerable&lt;Expression&gt; diagonal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>&gt;</td>
+        <td><span class="parametername">diagonal</span></td>
+        <td><p>The collection whose elements are copied to the new matrix as diagonal elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A diagonal matrix whose elements are <code data-dev-comment-type="paramref">diagonal</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">diagonal</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">diagonal</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_DiagonalConcat_" data-uid="Lapis.Math.LinearAlgebra.Matrix.DiagonalConcat*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_DiagonalConcat_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.DiagonalConcat(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">DiagonalConcat(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Concatenates the two matrices diagonally and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix DiagonalConcat(Matrix up, Matrix down)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">up</span></td>
+        <td><p>The first matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">down</span></td>
+        <td><p>The second matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Equal_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equal*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Equal_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equal(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Equal(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Equals_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equals*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Equals_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equals(Lapis.Math.LinearAlgebra.Matrix)">Equals(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">value</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Equals_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equals*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Equals_System_Object_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be an <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_ExchangeRows_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ExchangeRows*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_ExchangeRows_Lapis_Math_LinearAlgebra_Matrix_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ExchangeRows(Lapis.Math.LinearAlgebra.Matrix,System.Int32,System.Int32)">ExchangeRows(Matrix, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Exchanges two rows in the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix ExchangeRows(Matrix matrix, int row1, int row2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td><p>The matrix to transform.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row1</span></td>
+        <td><p>The one-based index of the first row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row2</span></td>
+        <td><p>The one-based index of the second row.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transformed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row1</code> or <code data-dev-comment-type="paramref">row2</code> is less than 1 or greater that <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_FromArray_" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromArray*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_FromArray_Lapis_Math_Algebra_Expressions_Expression_0__0___" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromArray(Lapis.Math.Algebra.Expressions.Expression[0:,0:])">FromArray(Expression[,])</h4>
+  <div class="markdown level1 summary"><p>Creates a matrix from a two-dimensional array of <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix FromArray(Expression[, ] elements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>[,]</td>
+        <td><span class="parametername">elements</span></td>
+        <td><p>The array whose elements are copied to the new <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> as the elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object containing <code data-dev-comment-type="paramref">elements</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">elements</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">elements</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_FromColumns_" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromColumns*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_FromColumns_Lapis_Math_LinearAlgebra_Vector___" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromColumns(Lapis.Math.LinearAlgebra.Vector[])">FromColumns(Vector[])</h4>
+  <div class="markdown level1 summary"><p>Creates a matrix using the specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> array containing the columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix FromColumns(params Vector[] columns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>[]</td>
+        <td><span class="parametername">columns</span></td>
+        <td><p>The array whose elements are copied to the new matrix as columns.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix whose columns are <code data-dev-comment-type="paramref">columns</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columns</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columns</code> is empty.</p>
+<p>-or-</p>
+<p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of the column vectors are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_FromColumns_" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromColumns*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_FromColumns_System_Collections_Generic_IEnumerable_Lapis_Math_LinearAlgebra_Vector__" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromColumns(System.Collections.Generic.IEnumerable{Lapis.Math.LinearAlgebra.Vector})">FromColumns(IEnumerable&lt;Vector&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a matrix using the specified <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> containing the columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix FromColumns(IEnumerable&lt;Vector&gt; columns)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>&gt;</td>
+        <td><span class="parametername">columns</span></td>
+        <td><p>The collection whose elements are copied to the new matrix as columns.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix whose columns are <code data-dev-comment-type="paramref">columns</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columns</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columns</code> is empty.</p>
+<p>-or-</p>
+<p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of the column vectors are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_FromRows_" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromRows*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_FromRows_Lapis_Math_LinearAlgebra_Vector___" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromRows(Lapis.Math.LinearAlgebra.Vector[])">FromRows(Vector[])</h4>
+  <div class="markdown level1 summary"><p>Creates a matrix using the specified <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a> array containing the rows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix FromRows(params Vector[] rows)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>[]</td>
+        <td><span class="parametername">rows</span></td>
+        <td><p>The array whose elements are copied to the new matrix as rows.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix whose rows are <code data-dev-comment-type="paramref">rows</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rows</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rows</code> is empty.</p>
+<p>-or-</p>
+<p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of the row vectors are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_FromRows_" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromRows*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_FromRows_System_Collections_Generic_IEnumerable_Lapis_Math_LinearAlgebra_Vector__" data-uid="Lapis.Math.LinearAlgebra.Matrix.FromRows(System.Collections.Generic.IEnumerable{Lapis.Math.LinearAlgebra.Vector})">FromRows(IEnumerable&lt;Vector&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a matrix using the specified <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> containing the rows.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix FromRows(IEnumerable&lt;Vector&gt; rows)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a>&gt;</td>
+        <td><span class="parametername">rows</span></td>
+        <td><p>The collection whose elements are copied to the new matrix as rows.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix whose rows are <code data-dev-comment-type="paramref">rows</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rows</code> is <span class="xref">null</span> or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rows</code> is empty.</p>
+<p>-or-</p>
+<p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of the row vectors are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_GetHashCode_" data-uid="Lapis.Math.LinearAlgebra.Matrix.GetHashCode*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_GetHashCode" data-uid="Lapis.Math.LinearAlgebra.Matrix.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_HorizonalConcat_" data-uid="Lapis.Math.LinearAlgebra.Matrix.HorizonalConcat*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_HorizonalConcat_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.HorizonalConcat(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">HorizonalConcat(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Concatenates the two matrices horizontally and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix HorizonalConcat(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Identity_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Identity*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Identity_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Identity(System.Int32)">Identity(Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates an identity matrix with the specified order.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Identity(int order)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">order</span></td>
+        <td><p>An integer specifying the order.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>An <code data-dev-comment-type="paramref">order</code>th-order identity matrix。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The parameter is zero or negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_InsertColumn_" data-uid="Lapis.Math.LinearAlgebra.Matrix.InsertColumn*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_InsertColumn_System_Int32_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Matrix.InsertColumn(System.Int32,Lapis.Math.LinearAlgebra.Vector)">InsertColumn(Int32, Vector)</h4>
+  <div class="markdown level1 summary"><p>Inserts a column at the specified index and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix InsertColumn(int columnIndex, Vector column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columnIndex</span></td>
+        <td><p>The one-based index of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The column to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">column</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">column</code> doesn&apos;t match <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columnIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_InsertRow_" data-uid="Lapis.Math.LinearAlgebra.Matrix.InsertRow*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_InsertRow_System_Int32_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Matrix.InsertRow(System.Int32,Lapis.Math.LinearAlgebra.Vector)">InsertRow(Int32, Vector)</h4>
+  <div class="markdown level1 summary"><p>Inserts a row at the specified index and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix InsertRow(int rowIndex, Vector row)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rowIndex</span></td>
+        <td><p>The one-based index of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The row to insert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">row</code> doesn&apos;t match <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rowIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Inverse_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Inverse*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Inverse_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Inverse(Lapis.Math.LinearAlgebra.Matrix)">Inverse(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Inverts the specified matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Inverse(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix to invert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The inverted matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is not a square matrix, or it is a singular matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_IsHomotype_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsHomotype*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_IsHomotype_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.IsHomotype(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">IsHomotype(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether the two specified matrices are homotype matrices.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsHomotype(Matrix x, Matrix y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code> are homotype matrices; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_LowerTriangle_" data-uid="Lapis.Math.LinearAlgebra.Matrix.LowerTriangle*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_LowerTriangle" data-uid="Lapis.Math.LinearAlgebra.Matrix.LowerTriangle">LowerTriangle()</h4>
+  <div class="markdown level1 summary"><p>Returns the lower triangular part of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix LowerTriangle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The lower triangular part of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The matrix is not a square matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Map_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Map*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Map_System_Func_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_Algebra_Expressions_Expression__" data-uid="Lapis.Math.LinearAlgebra.Matrix.Map(System.Func{Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.Algebra.Expressions.Expression})">Map(Func&lt;Expression, Expression&gt;)</h4>
+  <div class="markdown level1 summary"><p>Maps each element in the matrix into a new element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Map(Func&lt;Expression, Expression&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>, <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td><p>A transform function to apply to each element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix whose elements are the result of invoking the transform function on each element in the current matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Minor_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Minor*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Minor_Lapis_Math_LinearAlgebra_Matrix_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Minor(Lapis.Math.LinearAlgebra.Matrix,System.Int32,System.Int32)">Minor(Matrix, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the minor of the matrix by removing one row and one column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Minor(Matrix matrix, int row, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the row to be removed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of the dolumn to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The minor of <code data-dev-comment-type="paramref">matrix</code> by removing the <code data-dev-comment-type="paramref">row</code>th row and the <code data-dev-comment-type="paramref">column</code>th column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is not a square matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Rank_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Rank*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Rank_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Rank(Lapis.Math.LinearAlgebra.Matrix)">Rank(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns the rank of the specified matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Rank(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The rank of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RemoveColumn_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RemoveColumn*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RemoveColumn_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RemoveColumn(System.Int32)">RemoveColumn(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a column at the specified index and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix RemoveColumn(int columnIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columnIndex</span></td>
+        <td><p>The one-based index of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columnIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RemoveRow_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RemoveRow*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RemoveRow_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RemoveRow(System.Int32)">RemoveRow(Int32)</h4>
+  <div class="markdown level1 summary"><p>Removes a row at the specified index and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix RemoveRow(int rowIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rowIndex</span></td>
+        <td><p>The one-based index of the row.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rowIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Replace_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Replace*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Replace_System_Int32_System_Int32_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Replace(System.Int32,System.Int32,Lapis.Math.Algebra.Expressions.Expression)">Replace(Int32, Int32, Expression)</h4>
+  <div class="markdown level1 summary"><p>Replaces the element at the specified row and column with the new element and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Replace(int row, int column, Expression element)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of row of the element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of column of the element.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">element</span></td>
+        <td><p>The element to replace the old element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix that is equivalent to the current matrix except that the element at the <code data-dev-comment-type="paramref">row</code>th row and the <code data-dev-comment-type="paramref">column</code>th column is replaced with <code data-dev-comment-type="paramref">element</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">element</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Replace_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Replace*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Replace_System_Int32_System_Int32_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Replace(System.Int32,System.Int32,Lapis.Math.LinearAlgebra.Matrix)">Replace(Int32, Int32, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Replaces the sub-matrix at the specified rows and columns with the new sub-matrix and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Replace(int row, int column, Matrix block)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the first row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of the first column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">block</span></td>
+        <td><p>The sub-matrix to replace the old sub-matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix that is equivalent to the current matrix except that the elements starting at the <code data-dev-comment-type="paramref">row</code>th row and the <code data-dev-comment-type="paramref">column</code>th column are replaced with <code data-dev-comment-type="paramref">block</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">block</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+<p>-or-</p>
+<p>The sub-matrix is out of the edge of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_ReplaceColumn_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ReplaceColumn*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_ReplaceColumn_System_Int32_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ReplaceColumn(System.Int32,Lapis.Math.LinearAlgebra.Vector)">ReplaceColumn(Int32, Vector)</h4>
+  <div class="markdown level1 summary"><p>Replaces the elements at the specified column with the new column and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix ReplaceColumn(int columnIndex, Vector column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">columnIndex</span></td>
+        <td><p>The one-based index of the column.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The column to replace the old elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix that is equivalent to the current matrix except that the elements at the <code data-dev-comment-type="paramref">columnIndex</code>th column are replaced with <code data-dev-comment-type="paramref">column</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">column</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">column</code> doesn&apos;t match <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">columnIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_ReplaceRow_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ReplaceRow*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_ReplaceRow_System_Int32_Lapis_Math_LinearAlgebra_Vector_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ReplaceRow(System.Int32,Lapis.Math.LinearAlgebra.Vector)">ReplaceRow(Int32, Vector)</h4>
+  <div class="markdown level1 summary"><p>Replaces the elements at the specified row with the new row and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix ReplaceRow(int rowIndex, Vector row)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rowIndex</span></td>
+        <td><p>The one-based index of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The row to replace the old elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A matrix that is equivalent to the current matrix except that the elements at the <code data-dev-comment-type="paramref">rowIndex</code>th row are replaced with <code data-dev-comment-type="paramref">row</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html#Lapis_Math_LinearAlgebra_Vector_Dimension">Dimension</a> of <code data-dev-comment-type="paramref">row</code> doesn&apos;t match <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">rowIndex</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Row_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Row*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Row_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Row(System.Int32)">Row(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the row at the specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector Row(int row)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the row to get.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Vector.html">Vector</a></td>
+        <td><p>The <code data-dev-comment-type="paramref">row</code>th row.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RowEchelon_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowEchelon*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RowEchelon_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowEchelon(Lapis.Math.LinearAlgebra.Matrix)">RowEchelon(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Transform the matrix to a row echelon form.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix RowEchelon(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix to transform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transformed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RowMultiply_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowMultiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RowMultiply_Lapis_Math_LinearAlgebra_Matrix_System_Int32_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowMultiply(Lapis.Math.LinearAlgebra.Matrix,System.Int32,Lapis.Math.Algebra.Expressions.Expression)">RowMultiply(Matrix, Int32, Expression)</h4>
+  <div class="markdown level1 summary"><p>Multiplies a row in the matrix by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix RowMultiply(Matrix matrix, int row, Expression multiplier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td><p>The matrix to transform.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">multiplier</span></td>
+        <td><p>The scalar factor to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transformed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> or <code data-dev-comment-type="paramref">row</code> is less than 1 or greater that <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RowMultiplyAdd_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowMultiplyAdd*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RowMultiplyAdd_Lapis_Math_LinearAlgebra_Matrix_System_Int32_System_Int32_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowMultiplyAdd(Lapis.Math.LinearAlgebra.Matrix,System.Int32,System.Int32,Lapis.Math.Algebra.Expressions.Expression)">RowMultiplyAdd(Matrix, Int32, Int32, Expression)</h4>
+  <div class="markdown level1 summary"><p>Multiplies a row in the matrix by a scalar factor, and adds the result to another row.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix RowMultiplyAdd(Matrix matrix, int row1, int row2, Expression multiplier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td><p>The matrix to transform.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row1</span></td>
+        <td><p>The one-based index of the first row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row2</span></td>
+        <td><p>The one-based index of the second row.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">multiplier</span></td>
+        <td><p>The scalar factor to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transformed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">matrix</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row1</code> or <code data-dev-comment-type="paramref">row2</code> is less than 1 or greater that <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_RowSimplest_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowSimplest*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_RowSimplest_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.RowSimplest(Lapis.Math.LinearAlgebra.Matrix)">RowSimplest(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Transform the matrix to a row simplest form.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix RowSimplest(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix to transform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transformed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Submatrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Submatrix*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Submatrix_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Submatrix(System.Int32,System.Int32)">Submatrix(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the sub-matrix by removing one row and one column.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Submatrix(int row, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The one-based index of the row to be removed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The one-based index of the dolumn to be removed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The sub-matrix by removing the <code data-dev-comment-type="paramref">row</code>th row and the <code data-dev-comment-type="paramref">column</code>th column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">row</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a>.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">column</code> is less than 1 or greater than <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_ToString_" data-uid="Lapis.Math.LinearAlgebra.Matrix.ToString*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_ToString" data-uid="Lapis.Math.LinearAlgebra.Matrix.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Trace_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Trace*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Trace_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Trace(Lapis.Math.LinearAlgebra.Matrix)">Trace(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns the trace of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Expression Trace(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><p>The trace of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is not a square matrix, or it is a singular matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Transpose_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Transpose*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Transpose_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Transpose(Lapis.Math.LinearAlgebra.Matrix)">Transpose(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Transposes the rows and columns of a matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Transpose(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix to transpose.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The transposed matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_UpperTriangle_" data-uid="Lapis.Math.LinearAlgebra.Matrix.UpperTriangle*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_UpperTriangle" data-uid="Lapis.Math.LinearAlgebra.Matrix.UpperTriangle">UpperTriangle()</h4>
+  <div class="markdown level1 summary"><p>Returns the upper triangular part of the matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix UpperTriangle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The upper triangular part of the matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The matrix is not a square matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_VerticalConcat_" data-uid="Lapis.Math.LinearAlgebra.Matrix.VerticalConcat*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_VerticalConcat_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.VerticalConcat(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">VerticalConcat(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Concatenates the two matrices vertically and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix VerticalConcat(Matrix up, Matrix down)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">up</span></td>
+        <td><p>The first matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">down</span></td>
+        <td><p>The second matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">up</code> and <code data-dev-comment-type="paramref">down</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_Zero_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Zero*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_Zero_System_Int32_System_Int32_" data-uid="Lapis.Math.LinearAlgebra.Matrix.Zero(System.Int32,System.Int32)">Zero(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a zero matrix with the specified number of rows and columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix Zero(int row, int column)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>The number of rows.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">column</span></td>
+        <td><p>The number of columns.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>A zero matrix with <code data-dev-comment-type="paramref">row</code> rows and <code data-dev-comment-type="paramref">column</code> columns.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>The parameter is zero or negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Addition_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Addition*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Addition_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Addition(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Addition(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Adds each element in one matrix with its corresponding element in a second matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator +(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first matrix to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second matrix  to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a> and <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Division_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Division*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Division_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Division(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.Algebra.Expressions.Expression)">Division(Matrix, Expression)</h4>
+  <div class="markdown level1 summary"><p>Returns the matrix that results from dividing all the elements of a specified matrix by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator /(Matrix left, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The matrix to scale.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The scalar factor to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The scaled matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Division_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Division*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Division_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Division(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Division(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Multiplies the first matrix by the inverse of the second matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator /(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first matrix.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The product matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is not a square matrix, or it is a singular matrix.</p>
+<p>-or-</p>
+<p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">left</code> doesn&apos;t match the <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a> or <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Equality_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Equality*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Equality_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Equality(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Equality(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Explicit_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Explicit*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Explicit_Lapis_Math_Algebra_Expressions_Expression_0__0____Lapis_Math_LinearAlgebra_Matrix" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Explicit(Lapis.Math.Algebra.Expressions.Expression[0:,0:])~Lapis.Math.LinearAlgebra.Matrix">Explicit(Expression[,] to Matrix)</h4>
+  <div class="markdown level1 summary"><p>Defines an explicit conversion of a two-dimensional array of <a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a> to a <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator Matrix(Expression[, ] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a>[,]</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The array whose elements are copied to the new <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> as the elements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object containing <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Inequality_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Inequality*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Inequality_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Inequality(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Inequality(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> objects don&apos;t have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is not the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_Lapis_Math_Algebra_Expressions_Expression_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply(Lapis.Math.Algebra.Expressions.Expression,Lapis.Math.LinearAlgebra.Matrix)">Multiply(Expression, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns the matrix that results from scaling all the elements of a specified matrix by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator *(Expression left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The scaling value to use.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The matrix to scale.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The scaled matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_Algebra_Expressions_Expression_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.Algebra.Expressions.Expression)">Multiply(Matrix, Expression)</h4>
+  <div class="markdown level1 summary"><p>Returns the matrix that results from scaling all the elements of a specified matrix by a scalar factor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator *(Matrix left, Expression right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The matrix to scale.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Algebra.Expressions.Expression.html">Expression</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The scaling value to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The scaled matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Multiply_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Multiply(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Multiply(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns the matrix that results from multiplying two matrices together.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator *(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first matrix to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second matrix to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The product matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">left</code> and the <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a> of <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_Subtraction_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_Subtraction_Lapis_Math_LinearAlgebra_Matrix_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_Subtraction(Lapis.Math.LinearAlgebra.Matrix,Lapis.Math.LinearAlgebra.Matrix)">Subtraction(Matrix, Matrix)</h4>
+  <div class="markdown level1 summary"><p>Subtracts each element in a second matrix from its corresponding element in a first matrix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator -(Matrix left, Matrix right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first matrix to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second matrix  to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_RowCount">RowCount</a> and <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html#Lapis_Math_LinearAlgebra_Matrix_ColumnCount">ColumnCount</a> of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_UnaryNegation_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_UnaryNegation_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_UnaryNegation(Lapis.Math.LinearAlgebra.Matrix)">UnaryNegation(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Negates the <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> by multiplying all its values by -1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator -(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_LinearAlgebra_Matrix_op_UnaryPlus_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_LinearAlgebra_Matrix_op_UnaryPlus_Lapis_Math_LinearAlgebra_Matrix_" data-uid="Lapis.Math.LinearAlgebra.Matrix.op_UnaryPlus(Lapis.Math.LinearAlgebra.Matrix)">UnaryPlus(Matrix)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix operator +(Matrix value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The matrix.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.LinearAlgebra.Matrix.html">Matrix</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

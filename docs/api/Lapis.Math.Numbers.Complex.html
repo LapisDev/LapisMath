@@ -1,0 +1,3224 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Complex
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Complex
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Numbers.Complex">
+  
+  
+  <h1 id="Lapis_Math_Numbers_Complex" data-uid="Lapis.Math.Numbers.Complex" class="text-break">Class Complex
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a complex number.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Complex</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Numbers.html">Lapis.Math.Numbers</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Numbers.dll</h6>
+  <h5 id="Lapis_Math_Numbers_Complex_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Complex : Object, IEquatable&lt;Complex&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_ComplexInfinity" data-uid="Lapis.Math.Numbers.Complex.ComplexInfinity">ComplexInfinity</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the complex infinity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex ComplexInfinity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object that represents the complex infinity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_ImaginaryOne" data-uid="Lapis.Math.Numbers.Complex.ImaginaryOne">ImaginaryOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value with a real number equal to zero and an imaginary number equal to one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex ImaginaryOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object whose value is imaginary one (i).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_MinusImaginaryOne" data-uid="Lapis.Math.Numbers.Complex.MinusImaginaryOne">MinusImaginaryOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value with a real number equal to zero and an imaginary number equal to negative one.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex MinusImaginaryOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object whose value is negative imaginary one (-i).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_MinusOne" data-uid="Lapis.Math.Numbers.Complex.MinusOne">MinusOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number negative one (-1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex MinusOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object whose value is negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_One" data-uid="Lapis.Math.Numbers.Complex.One">One</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number one (1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex One</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object whose value is one (1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_Undefined" data-uid="Lapis.Math.Numbers.Complex.Undefined">Undefined</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents undefined.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex Undefined</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object that represents undefined.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Complex_Zero" data-uid="Lapis.Math.Numbers.Complex.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number zero (0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Complex Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>An object whose value is zero (0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Imaginary_" data-uid="Lapis.Math.Numbers.Complex.Imaginary*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Imaginary" data-uid="Lapis.Math.Numbers.Complex.Imaginary">Imaginary</h4>
+  <div class="markdown level1 summary"><p>Gets the imaginary component of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Real Imaginary { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The imaginary component of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsComplexInfinity_" data-uid="Lapis.Math.Numbers.Complex.IsComplexInfinity*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsComplexInfinity" data-uid="Lapis.Math.Numbers.Complex.IsComplexInfinity">IsComplexInfinity</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_ComplexInfinity">ComplexInfinity</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsComplexInfinity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_ComplexInfinity">ComplexInfinity</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsImaginaryOne_" data-uid="Lapis.Math.Numbers.Complex.IsImaginaryOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsImaginaryOne" data-uid="Lapis.Math.Numbers.Complex.IsImaginaryOne">IsImaginaryOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_ImaginaryOne">ImaginaryOne</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsImaginaryOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_ImaginaryOne">ImaginaryOne</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsMinusImaginaryOne_" data-uid="Lapis.Math.Numbers.Complex.IsMinusImaginaryOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsMinusImaginaryOne" data-uid="Lapis.Math.Numbers.Complex.IsMinusImaginaryOne">IsMinusImaginaryOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_MinusImaginaryOne">MinusImaginaryOne</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMinusImaginaryOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_MinusImaginaryOne">MinusImaginaryOne</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsMinusOne_" data-uid="Lapis.Math.Numbers.Complex.IsMinusOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsMinusOne" data-uid="Lapis.Math.Numbers.Complex.IsMinusOne">IsMinusOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_MinusOne">MinusOne</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMinusOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_MinusOne">MinusOne</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsOne_" data-uid="Lapis.Math.Numbers.Complex.IsOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsOne" data-uid="Lapis.Math.Numbers.Complex.IsOne">IsOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_One">One</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_One">One</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsUndefined_" data-uid="Lapis.Math.Numbers.Complex.IsUndefined*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsUndefined" data-uid="Lapis.Math.Numbers.Complex.IsUndefined">IsUndefined</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Undefined">Undefined</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUndefined { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Undefined">Undefined</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_IsZero_" data-uid="Lapis.Math.Numbers.Complex.IsZero*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_IsZero" data-uid="Lapis.Math.Numbers.Complex.IsZero">IsZero</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Zero">Zero</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsZero { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object is <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Zero">Zero</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Magnitude_" data-uid="Lapis.Math.Numbers.Complex.Magnitude*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Magnitude" data-uid="Lapis.Math.Numbers.Complex.Magnitude">Magnitude</h4>
+  <div class="markdown level1 summary"><p>Gets the magnitude (or absolute value) of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Real Magnitude { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>Tets the magnitude (or absolute value) of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Phase_" data-uid="Lapis.Math.Numbers.Complex.Phase*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Phase" data-uid="Lapis.Math.Numbers.Complex.Phase">Phase</h4>
+  <div class="markdown level1 summary"><p>Gets the phase of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Real Phase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>Gets the phase of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Real_" data-uid="Lapis.Math.Numbers.Complex.Real*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Real" data-uid="Lapis.Math.Numbers.Complex.Real">Real</h4>
+  <div class="markdown level1 summary"><p>Gets the real component of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Real Real { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The real component of the current <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Abs_" data-uid="Lapis.Math.Numbers.Complex.Abs*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Abs_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Abs(Lapis.Math.Numbers.Complex)">Abs(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the absolute value of a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Abs(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The absolute value of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Acos_" data-uid="Lapis.Math.Numbers.Complex.Acos*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Acos_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Acos(Lapis.Math.Numbers.Complex)">Acos(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the arccosine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Acos(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The arccosine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Add_" data-uid="Lapis.Math.Numbers.Complex.Add*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Add_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Add(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Add(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Add(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Asin_" data-uid="Lapis.Math.Numbers.Complex.Asin*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Asin_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Asin(Lapis.Math.Numbers.Complex)">Asin(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the arcsine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Asin(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The arcsine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Atan_" data-uid="Lapis.Math.Numbers.Complex.Atan*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Atan_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Atan(Lapis.Math.Numbers.Complex)">Atan(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the arctangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Atan(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The arctangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Conjugate_" data-uid="Lapis.Math.Numbers.Complex.Conjugate*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Conjugate_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Conjugate(Lapis.Math.Numbers.Complex)">Conjugate(Complex)</h4>
+  <div class="markdown level1 summary"><p>Computes the conjugate of a complex number and returns the result.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Conjugate(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A complex number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The conjugate of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Cos_" data-uid="Lapis.Math.Numbers.Complex.Cos*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Cos_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Cos(Lapis.Math.Numbers.Complex)">Cos(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the cosine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Cos(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The cosine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Cosh_" data-uid="Lapis.Math.Numbers.Complex.Cosh*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Cosh_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Cosh(Lapis.Math.Numbers.Complex)">Cosh(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the hyperbolic cosine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Cosh(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The hyperbolic cosine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Divide_" data-uid="Lapis.Math.Numbers.Complex.Divide*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Divide_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Divide(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Divide(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Divide(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Equal_" data-uid="Lapis.Math.Numbers.Complex.Equal*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Equal_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Equal(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Equal(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Equals_" data-uid="Lapis.Math.Numbers.Complex.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Equals_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Equals(Lapis.Math.Numbers.Complex)">Equals(Complex)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">value</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Equals_" data-uid="Lapis.Math.Numbers.Complex.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Equals_System_Object_" data-uid="Lapis.Math.Numbers.Complex.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Exp_" data-uid="Lapis.Math.Numbers.Complex.Exp*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Exp_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Exp(Lapis.Math.Numbers.Complex)">Exp(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns e raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Exp(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A number specifying a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The number e raised to the power <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_FromDouble_" data-uid="Lapis.Math.Numbers.Complex.FromDouble*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_FromDouble_System_Double_" data-uid="Lapis.Math.Numbers.Complex.FromDouble(System.Double)">FromDouble(Double)</h4>
+  <div class="markdown level1 summary"><p>Converts a <span class="xref">System.Double</span> value to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex FromDouble(double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_FromInt32_" data-uid="Lapis.Math.Numbers.Complex.FromInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_FromInt32_System_Int32_" data-uid="Lapis.Math.Numbers.Complex.FromInt32(System.Int32)">FromInt32(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts an <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex FromInt32(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_FromPolarCoordinates_" data-uid="Lapis.Math.Numbers.Complex.FromPolarCoordinates*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_FromPolarCoordinates_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_" data-uid="Lapis.Math.Numbers.Complex.FromPolarCoordinates(Lapis.Math.Numbers.Real,Lapis.Math.Numbers.Real)">FromPolarCoordinates(Real, Real)</h4>
+  <div class="markdown level1 summary"><p>Creates a complex number from a point&apos;s polar coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex FromPolarCoordinates(Real magnitude, Real phase)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">magnitude</span></td>
+        <td><p>The magnitude, which is the distance from the origin (the intersection of the x-axis and the y-axis) to the number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">phase</span></td>
+        <td><p>The phase, which is the angle from the line to the horizontal axis, measured in radians.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A complex number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_FromReal_" data-uid="Lapis.Math.Numbers.Complex.FromReal*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_FromReal_Lapis_Math_Numbers_Real_" data-uid="Lapis.Math.Numbers.Complex.FromReal(Lapis.Math.Numbers.Real)">FromReal(Real)</h4>
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Real">Real</a> object to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex FromReal(Real value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_FromRectangularCoordinates_" data-uid="Lapis.Math.Numbers.Complex.FromRectangularCoordinates*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_FromRectangularCoordinates_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_" data-uid="Lapis.Math.Numbers.Complex.FromRectangularCoordinates(Lapis.Math.Numbers.Real,Lapis.Math.Numbers.Real)">FromRectangularCoordinates(Real, Real)</h4>
+  <div class="markdown level1 summary"><p>Creates a complex number from a point&apos;s rectangular coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex FromRectangularCoordinates(Real real, Real imaginary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">real</span></td>
+        <td><p>The real part of the complex number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">imaginary</span></td>
+        <td><p>The imaginary part of the complex number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A complex number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_GetHashCode_" data-uid="Lapis.Math.Numbers.Complex.GetHashCode*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_GetHashCode" data-uid="Lapis.Math.Numbers.Complex.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Lg_" data-uid="Lapis.Math.Numbers.Complex.Lg*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Lg_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Lg(Lapis.Math.Numbers.Complex)">Lg(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the base-10 logarithm of a specified complex number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Lg(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number whose logarithm is to be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The base-10 logarithm of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Ln_" data-uid="Lapis.Math.Numbers.Complex.Ln*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Ln_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Ln(Lapis.Math.Numbers.Complex)">Ln(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the natural (base e) logarithm of a specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Ln(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number whose logarithm is to be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The natural logarithm of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Log_" data-uid="Lapis.Math.Numbers.Complex.Log*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Log_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Log(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Log(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the logarithm of a specified complex number in a specified base.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Log(Complex value, Complex base)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A complex number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>The base of the logarithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The logarithm of <code data-dev-comment-type="paramref">value</code> in base <code data-dev-comment-type="paramref">base</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> or <code data-dev-comment-type="paramref">base</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Multiply_" data-uid="Lapis.Math.Numbers.Complex.Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Multiply_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Multiply(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Multiply(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Multiply(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Negate_" data-uid="Lapis.Math.Numbers.Complex.Negate*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Negate_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Negate(Lapis.Math.Numbers.Complex)">Negate(Complex)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Negate(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Pow_" data-uid="Lapis.Math.Numbers.Complex.Pow*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Pow_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Pow(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Pow(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Pow(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The number <code data-dev-comment-type="paramref">left</code> raised to the power <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Pow_" data-uid="Lapis.Math.Numbers.Complex.Pow*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Pow_Lapis_Math_Numbers_Complex_System_Int32_" data-uid="Lapis.Math.Numbers.Complex.Pow(Lapis.Math.Numbers.Complex,System.Int32)">Pow(Complex, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified integral power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Pow(Complex base, int exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The number <code data-dev-comment-type="paramref">base</code> raised to the power <code data-dev-comment-type="paramref">exponent</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Reciprocal_" data-uid="Lapis.Math.Numbers.Complex.Reciprocal*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Reciprocal_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Reciprocal(Lapis.Math.Numbers.Complex)">Reciprocal(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the multiplicative inverse of a complex number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Reciprocal(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A complex number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The multiplicative inverse of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Sin_" data-uid="Lapis.Math.Numbers.Complex.Sin*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Sin_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Sin(Lapis.Math.Numbers.Complex)">Sin(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the sine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Sin(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The sine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Sinh_" data-uid="Lapis.Math.Numbers.Complex.Sinh*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Sinh_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Sinh(Lapis.Math.Numbers.Complex)">Sinh(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the hyperbolic sine of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Sinh(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The hyperbolic sine of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Sqrt_" data-uid="Lapis.Math.Numbers.Complex.Sqrt*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Sqrt_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Sqrt(Lapis.Math.Numbers.Complex)">Sqrt(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the square root of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Sqrt(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The square root of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Subtract_" data-uid="Lapis.Math.Numbers.Complex.Subtract*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Subtract_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Subtract(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Subtract(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object from another <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Subtract(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Tan_" data-uid="Lapis.Math.Numbers.Complex.Tan*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Tan_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Tan(Lapis.Math.Numbers.Complex)">Tan(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the tangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Tan(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The tangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_Tanh_" data-uid="Lapis.Math.Numbers.Complex.Tanh*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_Tanh_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.Tanh(Lapis.Math.Numbers.Complex)">Tanh(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the hyperbolic tangent of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex Tanh(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The hyperbolic tangent of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_ToString_" data-uid="Lapis.Math.Numbers.Complex.ToString*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_ToString" data-uid="Lapis.Math.Numbers.Complex.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Addition_" data-uid="Lapis.Math.Numbers.Complex.op_Addition*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Addition_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Addition(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Addition(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator +(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Division_" data-uid="Lapis.Math.Numbers.Complex.op_Division*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Division_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Division(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Division(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator /(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Equality_" data-uid="Lapis.Math.Numbers.Complex.op_Equality*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Equality_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Equality(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Equality(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Implicit_" data-uid="Lapis.Math.Numbers.Complex.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Implicit_Lapis_Math_Numbers_Real__Lapis_Math_Numbers_Complex" data-uid="Lapis.Math.Numbers.Complex.op_Implicit(Lapis.Math.Numbers.Real)~Lapis.Math.Numbers.Complex">Implicit(Real to Complex)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of a <a class="xref" href="Lapis.Math.Numbers.Complex.html#Lapis_Math_Numbers_Complex_Real">Real</a> object to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Complex(Real value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Implicit_" data-uid="Lapis.Math.Numbers.Complex.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Implicit_System_Double__Lapis_Math_Numbers_Complex" data-uid="Lapis.Math.Numbers.Complex.op_Implicit(System.Double)~Lapis.Math.Numbers.Complex">Implicit(Double to Complex)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of a <span class="xref">System.Double</span> value to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Complex(double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Implicit_" data-uid="Lapis.Math.Numbers.Complex.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Implicit_System_Int32__Lapis_Math_Numbers_Complex" data-uid="Lapis.Math.Numbers.Complex.op_Implicit(System.Int32)~Lapis.Math.Numbers.Complex">Implicit(Int32 to Complex)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of an <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Complex(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Inequality_" data-uid="Lapis.Math.Numbers.Complex.op_Inequality*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Inequality_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Inequality(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Inequality(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects don&apos;t have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is not the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Multiply_" data-uid="Lapis.Math.Numbers.Complex.op_Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Multiply_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Multiply(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Multiply(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator *(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_Subtraction_" data-uid="Lapis.Math.Numbers.Complex.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_Subtraction_Lapis_Math_Numbers_Complex_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_Subtraction(Lapis.Math.Numbers.Complex,Lapis.Math.Numbers.Complex)">Subtraction(Complex, Complex)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object from another <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator -(Complex left, Complex right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_UnaryNegation_" data-uid="Lapis.Math.Numbers.Complex.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_UnaryNegation_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_UnaryNegation(Lapis.Math.Numbers.Complex)">UnaryNegation(Complex)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator -(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Complex_op_UnaryPlus_" data-uid="Lapis.Math.Numbers.Complex.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_Numbers_Complex_op_UnaryPlus_Lapis_Math_Numbers_Complex_" data-uid="Lapis.Math.Numbers.Complex.op_UnaryPlus(Lapis.Math.Numbers.Complex)">UnaryPlus(Complex)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Complex operator +(Complex value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Complex.html">Complex</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

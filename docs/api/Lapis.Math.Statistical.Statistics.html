@@ -1,0 +1,2006 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Statistics
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Statistics
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Statistical.Statistics">
+  
+  
+  <h1 id="Lapis_Math_Statistical_Statistics" data-uid="Lapis.Math.Statistical.Statistics" class="text-break">Class Statistics
+  </h1>
+  <div class="markdown level0 summary"><p>Provides methods for statistics.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Statistics</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Statistical.html">Lapis.Math.Statistical</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Statistical.dll</h6>
+  <h5 id="Lapis_Math_Statistical_Statistics_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Statistics : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Maximum_" data-uid="Lapis.Math.Statistical.Statistics.Maximum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Maximum_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Maximum(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Maximum(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the maximum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Maximum(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The maximum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Maximum_" data-uid="Lapis.Math.Statistical.Statistics.Maximum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Maximum_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Maximum(System.Collections.Generic.IEnumerable{System.Double})">Maximum(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the maximum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Maximum(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The maximum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Mean_" data-uid="Lapis.Math.Statistical.Statistics.Mean*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Mean_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Mean(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Mean(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the mean of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Mean(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Mean_" data-uid="Lapis.Math.Statistical.Statistics.Mean*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Mean_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Mean(System.Collections.Generic.IEnumerable{System.Double})">Mean(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the mean of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Mean(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Median_" data-uid="Lapis.Math.Statistical.Statistics.Median*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Median_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Median(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Median(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the median of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Median(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Median_" data-uid="Lapis.Math.Statistical.Statistics.Median*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Median_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Median(System.Collections.Generic.IEnumerable{System.Double})">Median(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the median of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Median(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Minimum_" data-uid="Lapis.Math.Statistical.Statistics.Minimum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Minimum_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Minimum(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Minimum(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the minimum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Minimum(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The miniimum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Minimum_" data-uid="Lapis.Math.Statistical.Statistics.Minimum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Minimum_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Minimum(System.Collections.Generic.IEnumerable{System.Double})">Minimum(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the minimum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Minimum(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The miniimum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Mode_" data-uid="Lapis.Math.Statistical.Statistics.Mode*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Mode_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Mode(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Mode(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the mode of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Real&gt; Mode(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Mode_" data-uid="Lapis.Math.Statistical.Statistics.Mode*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Mode_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Mode(System.Collections.Generic.IEnumerable{System.Double})">Mode(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the mode of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;double&gt; Mode(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationCovariance_" data-uid="Lapis.Math.Statistical.Statistics.PopulationCovariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationCovariance_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.PopulationCovariance(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real},System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">PopulationCovariance(IEnumerable&lt;Real&gt;, IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the covariance of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real PopulationCovariance(IEnumerable&lt;Real&gt; data1, IEnumerable&lt;Real&gt; data2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data1</span></td>
+        <td><p>The collection containing the values of the first variable.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data2</span></td>
+        <td><p>The collection containing the values of the second variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The covariance of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is empty or contains only one element.</p>
+<p>-or-</p>
+<p>The lengths of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationCovariance_" data-uid="Lapis.Math.Statistical.Statistics.PopulationCovariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationCovariance_System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.PopulationCovariance(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Double})">PopulationCovariance(IEnumerable&lt;Double&gt;, IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the covariance of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PopulationCovariance(IEnumerable&lt;double&gt; data1, IEnumerable&lt;double&gt; data2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data1</span></td>
+        <td><p>The collection containing the values of the first variable.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data2</span></td>
+        <td><p>The collection containing the values of the second variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The covariance of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is empty or contains only one element.</p>
+<p>-or-</p>
+<p>The lengths of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationStandardDeviation_" data-uid="Lapis.Math.Statistical.Statistics.PopulationStandardDeviation*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationStandardDeviation_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.PopulationStandardDeviation(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">PopulationStandardDeviation(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the standard deviation of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real PopulationStandardDeviation(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The standard deviation of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationStandardDeviation_" data-uid="Lapis.Math.Statistical.Statistics.PopulationStandardDeviation*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationStandardDeviation_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.PopulationStandardDeviation(System.Collections.Generic.IEnumerable{System.Double})">PopulationStandardDeviation(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the standard deviation of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PopulationStandardDeviation(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The standard deviation of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationVariance_" data-uid="Lapis.Math.Statistical.Statistics.PopulationVariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationVariance_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.PopulationVariance(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">PopulationVariance(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the variance of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real PopulationVariance(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The variance of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_PopulationVariance_" data-uid="Lapis.Math.Statistical.Statistics.PopulationVariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_PopulationVariance_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.PopulationVariance(System.Collections.Generic.IEnumerable{System.Double})">PopulationVariance(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the variance of the population.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double PopulationVariance(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The variance of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Range_" data-uid="Lapis.Math.Statistical.Statistics.Range*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Range_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Range(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Range(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the range of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Range(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The range of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Range_" data-uid="Lapis.Math.Statistical.Statistics.Range*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Range_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Range(System.Collections.Generic.IEnumerable{System.Double})">Range(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the range of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Range(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The range of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_RootMeanSquare_" data-uid="Lapis.Math.Statistical.Statistics.RootMeanSquare*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_RootMeanSquare_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.RootMeanSquare(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">RootMeanSquare(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the root mean square of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real RootMeanSquare(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_RootMeanSquare_" data-uid="Lapis.Math.Statistical.Statistics.RootMeanSquare*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_RootMeanSquare_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.RootMeanSquare(System.Collections.Generic.IEnumerable{System.Double})">RootMeanSquare(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the root mean square of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double RootMeanSquare(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The mean of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleCovariance_" data-uid="Lapis.Math.Statistical.Statistics.SampleCovariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleCovariance_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.SampleCovariance(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real},System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">SampleCovariance(IEnumerable&lt;Real&gt;, IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the covariance of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real SampleCovariance(IEnumerable&lt;Real&gt; data1, IEnumerable&lt;Real&gt; data2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data1</span></td>
+        <td><p>The collection containing the values of the first variable.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data2</span></td>
+        <td><p>The collection containing the values of the second variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The covariance of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is empty or contains only one element.</p>
+<p>-or-</p>
+<p>The lengths of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleCovariance_" data-uid="Lapis.Math.Statistical.Statistics.SampleCovariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleCovariance_System_Collections_Generic_IEnumerable_System_Double__System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.SampleCovariance(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Double})">SampleCovariance(IEnumerable&lt;Double&gt;, IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the covariance of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SampleCovariance(IEnumerable&lt;double&gt; data1, IEnumerable&lt;double&gt; data2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data1</span></td>
+        <td><p>The collection containing the values of the first variable.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data2</span></td>
+        <td><p>The collection containing the values of the second variable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The covariance of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data1</code> or <code data-dev-comment-type="paramref">data2</code> is empty or contains only one element.</p>
+<p>-or-</p>
+<p>The lengths of <code data-dev-comment-type="paramref">data1</code> and <code data-dev-comment-type="paramref">data2</code> don&apos;t match.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleStandardDeviation_" data-uid="Lapis.Math.Statistical.Statistics.SampleStandardDeviation*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleStandardDeviation_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.SampleStandardDeviation(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">SampleStandardDeviation(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the standard deviation of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real SampleStandardDeviation(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The standard deviation of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleStandardDeviation_" data-uid="Lapis.Math.Statistical.Statistics.SampleStandardDeviation*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleStandardDeviation_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.SampleStandardDeviation(System.Collections.Generic.IEnumerable{System.Double})">SampleStandardDeviation(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the standard deviation of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SampleStandardDeviation(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The standard deviation of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleVariance_" data-uid="Lapis.Math.Statistical.Statistics.SampleVariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleVariance_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.SampleVariance(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">SampleVariance(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the variance of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real SampleVariance(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The variance of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_SampleVariance_" data-uid="Lapis.Math.Statistical.Statistics.SampleVariance*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_SampleVariance_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.SampleVariance(System.Collections.Generic.IEnumerable{System.Double})">SampleVariance(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the variance of the samples.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double SampleVariance(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The variance of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty or contains only one element.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Sum_" data-uid="Lapis.Math.Statistical.Statistics.Sum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Sum_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Real__" data-uid="Lapis.Math.Statistical.Statistics.Sum(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Real})">Sum(IEnumerable&lt;Real&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the sum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Real Sum(IEnumerable&lt;Real&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Statistical_Statistics_Sum_" data-uid="Lapis.Math.Statistical.Statistics.Sum*"></a>
+  <h4 id="Lapis_Math_Statistical_Statistics_Sum_System_Collections_Generic_IEnumerable_System_Double__" data-uid="Lapis.Math.Statistical.Statistics.Sum(System.Collections.Generic.IEnumerable{System.Double})">Sum(IEnumerable&lt;Double&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the sum of a collection of numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Sum(IEnumerable&lt;double&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The collection containing the numbers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">data</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">data</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

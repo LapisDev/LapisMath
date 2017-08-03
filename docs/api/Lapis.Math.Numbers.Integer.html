@@ -1,0 +1,3865 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Integer
+   | LapisMath Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Integer
+   | LapisMath Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.Math.Numbers.Integer">
+  
+  
+  <h1 id="Lapis_Math_Numbers_Integer" data-uid="Lapis.Math.Numbers.Integer" class="text-break">Class Integer
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a 32-bit signed integer. This class is a wrapper of <span class="xref">System.Int32</span>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Lapis.Math.Numbers.Real.html">Real</a></div>
+    <div class="level2"><a class="xref" href="Lapis.Math.Numbers.Rational.html">Rational</a></div>
+    <div class="level3"><span class="xref">Integer</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Equals_Lapis_Math_Numbers_Rational_">Rational.Equals(Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Equal_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Equal(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_CompareTo_Lapis_Math_Numbers_Rational_">Rational.CompareTo(Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Compare_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Compare(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Create_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_">Rational.Create(Integer, Integer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Create_System_Int32_System_Int32_">Rational.Create(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Add_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Add(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Subtract_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Subtract(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Multiply_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Multiply(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Divide_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Rational_">Rational.Divide(Rational, Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Negate_Lapis_Math_Numbers_Rational_">Rational.Negate(Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Abs_Lapis_Math_Numbers_Rational_">Rational.Abs(Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Reciprocal_Lapis_Math_Numbers_Rational_">Rational.Reciprocal(Rational)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Pow_Lapis_Math_Numbers_Rational_Lapis_Math_Numbers_Integer_">Rational.Pow(Rational, Integer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Equals_Lapis_Math_Numbers_Real_">Real.Equals(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Equal_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Equal(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_CompareTo_Lapis_Math_Numbers_Real_">Real.CompareTo(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Compare_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Compare(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_FromDouble_System_Double_">Real.FromDouble(Double)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Acos_Lapis_Math_Numbers_Real_">Real.Acos(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Asin_Lapis_Math_Numbers_Real_">Real.Asin(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Atan_Lapis_Math_Numbers_Real_">Real.Atan(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Ceiling_Lapis_Math_Numbers_Real_">Real.Ceiling(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Cos_Lapis_Math_Numbers_Real_">Real.Cos(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Cosh_Lapis_Math_Numbers_Real_">Real.Cosh(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Exp_Lapis_Math_Numbers_Real_">Real.Exp(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Floor_Lapis_Math_Numbers_Real_">Real.Floor(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Ln_Lapis_Math_Numbers_Real_">Real.Ln(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Log_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Log(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Lg_Lapis_Math_Numbers_Real_">Real.Lg(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Max_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Max(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Min_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Min(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Round_Lapis_Math_Numbers_Real_">Real.Round(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Sin_Lapis_Math_Numbers_Real_">Real.Sin(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Sinh_Lapis_Math_Numbers_Real_">Real.Sinh(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Sqrt_Lapis_Math_Numbers_Real_">Real.Sqrt(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Tan_Lapis_Math_Numbers_Real_">Real.Tan(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Tanh_Lapis_Math_Numbers_Real_">Real.Tanh(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Add_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Add(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Subtract_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Subtract(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Multiply_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Multiply(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Divide_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Divide(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Negate_Lapis_Math_Numbers_Real_">Real.Negate(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Abs_Lapis_Math_Numbers_Real_">Real.Abs(Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Pow_Lapis_Math_Numbers_Real_Lapis_Math_Numbers_Real_">Real.Pow(Real, Real)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_Root_Lapis_Math_Numbers_Real_System_Int32_">Real.Root(Real, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_IsNaN">Real.IsNaN</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_IsNegativeInfinity">Real.IsNegativeInfinity</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_IsPositiveInfinity">Real.IsPositiveInfinity</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.Math.Numbers.Real.html#Lapis_Math_Numbers_Real_IsInfinity">Real.IsInfinity</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.Math.Numbers.html">Lapis.Math.Numbers</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.Math.Numbers.dll</h6>
+  <h5 id="Lapis_Math_Numbers_Integer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Integer : Rational, IComparable&lt;Real&gt;, IEquatable&lt;Real&gt;, IComparable&lt;Rational&gt;, IEquatable&lt;Rational&gt;, IComparable&lt;Integer&gt;, IEquatable&lt;Integer&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Integer_MaxValue" data-uid="Lapis.Math.Numbers.Integer.MaxValue">MaxValue</h4>
+  <div class="markdown level1 summary"><p>Represents the largest possible value of a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Integer MaxValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The largest possible value of a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Lapis_Math_Numbers_Integer_MaxValue_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Int32.MaxValue</span></div>
+  </div>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Integer_MinusOne" data-uid="Lapis.Math.Numbers.Integer.MinusOne">MinusOne</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number negative one (-1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Integer MinusOne</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>An object whose value is negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Integer_MinValue" data-uid="Lapis.Math.Numbers.Integer.MinValue">MinValue</h4>
+  <div class="markdown level1 summary"><p>Represents the smallest possible value of a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Integer MinValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The smallest possible value of a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Lapis_Math_Numbers_Integer_MinValue_seealso">See Also</h5>
+  <div class="seealso">
+      <div><span class="xref">System.Int32.MinValue</span></div>
+  </div>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Integer_One" data-uid="Lapis.Math.Numbers.Integer.One">One</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number one (1).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Integer One</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>An object whose value is one (1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lapis_Math_Numbers_Integer_Zero" data-uid="Lapis.Math.Numbers.Integer.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>Gets a value that represents the number zero (0).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly Integer Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>An object whose value is zero (0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Denominator_" data-uid="Lapis.Math.Numbers.Integer.Denominator*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Denominator" data-uid="Lapis.Math.Numbers.Integer.Denominator">Denominator</h4>
+  <div class="markdown level1 summary"><p>Gets an integer <code>1</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Denominator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p><code>1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Denominator">Rational.Denominator</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsEven_" data-uid="Lapis.Math.Numbers.Integer.IsEven*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsEven" data-uid="Lapis.Math.Numbers.Integer.IsEven">IsEven</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is an even number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEven { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is an even number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsMinusOne_" data-uid="Lapis.Math.Numbers.Integer.IsMinusOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsMinusOne" data-uid="Lapis.Math.Numbers.Integer.IsMinusOne">IsMinusOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is -1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsMinusOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is -1; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_IsMinusOne">Rational.IsMinusOne</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsOdd_" data-uid="Lapis.Math.Numbers.Integer.IsOdd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsOdd" data-uid="Lapis.Math.Numbers.Integer.IsOdd">IsOdd</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is an odd number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOdd { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is an odd number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsOne_" data-uid="Lapis.Math.Numbers.Integer.IsOne*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsOne" data-uid="Lapis.Math.Numbers.Integer.IsOne">IsOne</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is 1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsOne { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is 1; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_IsOne">Rational.IsOne</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsPerfectSquare_" data-uid="Lapis.Math.Numbers.Integer.IsPerfectSquare*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsPerfectSquare" data-uid="Lapis.Math.Numbers.Integer.IsPerfectSquare">IsPerfectSquare</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is a perfect square number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPerfectSquare { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is a perfect square number; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsPowerOfTwo_" data-uid="Lapis.Math.Numbers.Integer.IsPowerOfTwo*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsPowerOfTwo" data-uid="Lapis.Math.Numbers.Integer.IsPowerOfTwo">IsPowerOfTwo</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is a power of two.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPowerOfTwo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is a power of two; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_IsZero_" data-uid="Lapis.Math.Numbers.Integer.IsZero*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_IsZero" data-uid="Lapis.Math.Numbers.Integer.IsZero">IsZero</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsZero { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object is 0; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_IsZero">Rational.IsZero</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Numerator_" data-uid="Lapis.Math.Numbers.Integer.Numerator*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Numerator" data-uid="Lapis.Math.Numbers.Integer.Numerator">Numerator</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Numerator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Numerator">Rational.Numerator</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Sign_" data-uid="Lapis.Math.Numbers.Integer.Sign*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Sign" data-uid="Lapis.Math.Numbers.Integer.Sign">Sign</h4>
+  <div class="markdown level1 summary"><p>Gets a number that indicates the sign (negative, positive, or zero) of the current <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Sign { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A number that indicates the sign of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+<p>The value of this object is negative.</p>
+<p>The value of this object is 0 (zero).</p>
+<p>The value of this object is positive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Sign">Rational.Sign</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Abs_" data-uid="Lapis.Math.Numbers.Integer.Abs*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Abs_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Abs(Lapis.Math.Numbers.Integer)">Abs(Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the absolute value of a number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Abs(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The absolute value of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Add_" data-uid="Lapis.Math.Numbers.Integer.Add*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Add_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Add(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Add(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Add(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Binomial_" data-uid="Lapis.Math.Numbers.Integer.Binomial*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Binomial_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Binomial(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Binomial(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the binomial coefficients of the specified two integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Binomial(Integer n, Integer m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>An integer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">m</span></td>
+        <td><p>The other integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The binomial coefficients of <code data-dev-comment-type="paramref">n</code> and <code data-dev-comment-type="paramref">m</code>. (<code data-dev-comment-type="paramref">n</code>C<code data-dev-comment-type="paramref">m</code>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Binomial_" data-uid="Lapis.Math.Numbers.Integer.Binomial*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Binomial_System_Int32_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.Binomial(System.Int32,System.Int32)">Binomial(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the binomial coefficients of the specified two integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Binomial(int n, int m)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">n</span></td>
+        <td><p>An integer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">m</span></td>
+        <td><p>The other integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The binomial coefficients of <code data-dev-comment-type="paramref">n</code> and <code data-dev-comment-type="paramref">m</code>. (<code data-dev-comment-type="paramref">n</code>C<code data-dev-comment-type="paramref">m</code>)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Compare_" data-uid="Lapis.Math.Numbers.Integer.Compare*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Compare_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Compare(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Compare(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Compares two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Compare(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A signed integer value that indicates the relationship of <code data-dev-comment-type="paramref">left</code> to <code data-dev-comment-type="paramref">right</code>. </p>
+<p>Less than zero, if <code data-dev-comment-type="paramref">left</code> is less than <code data-dev-comment-type="paramref">right</code>.</p>
+<p>Zero, if <code data-dev-comment-type="paramref">left</code> equals <code data-dev-comment-type="paramref">right</code>.</p>
+<p>Greater than zero, if <code data-dev-comment-type="paramref">left</code> is greater than <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_CompareTo_" data-uid="Lapis.Math.Numbers.Integer.CompareTo*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_CompareTo_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.CompareTo(Lapis.Math.Numbers.Integer)">CompareTo(Integer)</h4>
+  <div class="markdown level1 summary"><p>Compares this instance to a second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> and returns an integer that indicates whether the value of this instance is less than, equal to, or greater than the value of the specified object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A signed integer value that indicates the relationship of this instance to <code data-dev-comment-type="paramref">value</code>. </p>
+<p>Less than zero, if the current instance is less than <code data-dev-comment-type="paramref">value</code>.</p>
+<p>Zero, if current instance equals <code data-dev-comment-type="paramref">value</code>.</p>
+<p>Greater than zero, if the current instance is greater than <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Divide_" data-uid="Lapis.Math.Numbers.Integer.Divide*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Divide_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Divide(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Divide(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Divide(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Equal_" data-uid="Lapis.Math.Numbers.Integer.Equal*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Equal_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Equal(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Equal(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Equal(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Equals_" data-uid="Lapis.Math.Numbers.Integer.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Equals_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Equals(Lapis.Math.Numbers.Integer)">Equals(Integer)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">value</code> is the same as the value of this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Equals_" data-uid="Lapis.Math.Numbers.Integer.Equals*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Equals_System_Object_" data-uid="Lapis.Math.Numbers.Integer.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether this instance and a specified object, which must also be a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object, have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">obj</code> is <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> and its value is the same as this instance; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_Equals_System_Object_">Rational.Equals(Object)</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Factorial_" data-uid="Lapis.Math.Numbers.Integer.Factorial*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Factorial_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Factorial(Lapis.Math.Numbers.Integer)">Factorial(Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the factorial of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Factorial(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The factorial of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Factorial_" data-uid="Lapis.Math.Numbers.Integer.Factorial*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Factorial_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.Factorial(System.Int32)">Factorial(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns the factorial of the specified number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Factorial(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The factorial of <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">value</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_FromInt32_" data-uid="Lapis.Math.Numbers.Integer.FromInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_FromInt32_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.FromInt32(System.Int32)">FromInt32(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts a <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer FromInt32(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Gcd(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Gcd(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of two <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Gcd(Integer x, Integer y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_Lapis_Math_Numbers_Integer___" data-uid="Lapis.Math.Numbers.Integer.Gcd(Lapis.Math.Numbers.Integer[])">Gcd(Integer[])</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of an array of <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Gcd(params Integer[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Integer__" data-uid="Lapis.Math.Numbers.Integer.Gcd(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Integer})">Gcd(IEnumerable&lt;Integer&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of a collection of <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Gcd(IEnumerable&lt;Integer&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Lapis.Math.Numbers.Integer.Gcd(System.Collections.Generic.IEnumerable{System.Int32})">Gcd(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of a collection of integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Gcd(IEnumerable&lt;int&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the integers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_System_Int32_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.Gcd(System.Int32,System.Int32)">Gcd(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of two integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Gcd(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Gcd_" data-uid="Lapis.Math.Numbers.Integer.Gcd*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Gcd_System_Int32___" data-uid="Lapis.Math.Numbers.Integer.Gcd(System.Int32[])">Gcd(Int32[])</h4>
+  <div class="markdown level1 summary"><p>Finds the greatest common divisor of an array of integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Gcd(params int[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the integers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The greatest common divisor of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_GetHashCode_" data-uid="Lapis.Math.Numbers.Integer.GetHashCode*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_GetHashCode" data-uid="Lapis.Math.Numbers.Integer.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for the current object. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for the current object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_GetHashCode">Rational.GetHashCode()</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Lcm(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Lcm(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of two <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Lcm(Integer x, Integer y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_Lapis_Math_Numbers_Integer___" data-uid="Lapis.Math.Numbers.Integer.Lcm(Lapis.Math.Numbers.Integer[])">Lcm(Integer[])</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of an array of <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Lcm(params Integer[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_System_Collections_Generic_IEnumerable_Lapis_Math_Numbers_Integer__" data-uid="Lapis.Math.Numbers.Integer.Lcm(System.Collections.Generic.IEnumerable{Lapis.Math.Numbers.Integer})">Lcm(IEnumerable&lt;Integer&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of a collection of <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Lcm(IEnumerable&lt;Integer&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>, or contains <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_System_Collections_Generic_IEnumerable_System_Int32__" data-uid="Lapis.Math.Numbers.Integer.Lcm(System.Collections.Generic.IEnumerable{System.Int32})">Lcm(IEnumerable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of a collection of integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Lcm(IEnumerable&lt;int&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The collection containing the integers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_System_Int32_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.Lcm(System.Int32,System.Int32)">Lcm(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of two integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Lcm(int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The first value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>The second value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">x</code> and <code data-dev-comment-type="paramref">y</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Lcm_" data-uid="Lapis.Math.Numbers.Integer.Lcm*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Lcm_System_Int32___" data-uid="Lapis.Math.Numbers.Integer.Lcm(System.Int32[])">Lcm(Int32[])</h4>
+  <div class="markdown level1 summary"><p>Finds the least common multiple of an array of integers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Lcm(params int[] values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>The array containing the integers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The least common multiple of <code data-dev-comment-type="paramref">values</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><code data-dev-comment-type="paramref">values</code> is empty.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Multiply_" data-uid="Lapis.Math.Numbers.Integer.Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Multiply_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Multiply(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Multiply(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Multiply(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Negate_" data-uid="Lapis.Math.Numbers.Integer.Negate*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Negate_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Negate(Lapis.Math.Numbers.Integer)">Negate(Integer)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Negate(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_PositivePow_" data-uid="Lapis.Math.Numbers.Integer.PositivePow*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_PositivePow_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.PositivePow(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">PositivePow(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified positive integral power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer PositivePow(Integer base, Integer exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The number <code data-dev-comment-type="paramref">base</code> raised to the power <code data-dev-comment-type="paramref">exponent</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> or <code data-dev-comment-type="paramref">exponent</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">exponent</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> and <code data-dev-comment-type="paramref">exponent</code> are zero.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_PositivePow_" data-uid="Lapis.Math.Numbers.Integer.PositivePow*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_PositivePow_System_Int32_System_Int32_" data-uid="Lapis.Math.Numbers.Integer.PositivePow(System.Int32,System.Int32)">PositivePow(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a specified number raised to the specified positive integral power.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int PositivePow(int base, int exponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">base</span></td>
+        <td><p>The number to be raised to a power.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">exponent</span></td>
+        <td><p>The number that specifies a power.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The number <code data-dev-comment-type="paramref">base</code> raised to the power <code data-dev-comment-type="paramref">exponent</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">exponent</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArithmeticException</span></td>
+        <td><p><code data-dev-comment-type="paramref">base</code> and <code data-dev-comment-type="paramref">exponent</code> are zero.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <span class="xref">System.Int32.MaxValue</span> or less than <span class="xref">System.Int32.MinValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Remainder_" data-uid="Lapis.Math.Numbers.Integer.Remainder*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Remainder_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Remainder(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Remainder(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the remainder that results from division with two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Remainder(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The remainder that results from the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_Subtract_" data-uid="Lapis.Math.Numbers.Integer.Subtract*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_Subtract_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.Subtract(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Subtract(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object from another <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer Subtract(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_ToDouble_" data-uid="Lapis.Math.Numbers.Integer.ToDouble*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_ToDouble" data-uid="Lapis.Math.Numbers.Integer.ToDouble">ToDouble()</h4>
+  <div class="markdown level1 summary"><p>Converts the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to a <span class="xref">System.Double</span> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double ToDouble()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The <span class="xref">System.Double</span> value that is equal to the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_ToDouble">Rational.ToDouble()</a></div>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_ToInt32_" data-uid="Lapis.Math.Numbers.Integer.ToInt32*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_ToInt32" data-uid="Lapis.Math.Numbers.Integer.ToInt32">ToInt32()</h4>
+  <div class="markdown level1 summary"><p>Converts the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to a <span class="xref">System.Int32</span> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ToInt32()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The <span class="xref">System.Int32</span> value that the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object wraps.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_ToString_" data-uid="Lapis.Math.Numbers.Integer.ToString*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_ToString" data-uid="Lapis.Math.Numbers.Integer.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.Math.Numbers.Rational.html#Lapis_Math_Numbers_Rational_ToString">Rational.ToString()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Addition_" data-uid="Lapis.Math.Numbers.Integer.op_Addition*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Addition_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Addition(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Addition(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Adds the values of two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator +(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Division_" data-uid="Lapis.Math.Numbers.Integer.op_Division*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Division_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Division(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Division(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Divides a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object by another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator /(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Equality_" data-uid="Lapis.Math.Numbers.Integer.op_Equality*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Equality_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Equality(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Equality(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Explicit_" data-uid="Lapis.Math.Numbers.Integer.op_Explicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Explicit_Lapis_Math_Numbers_Integer__System_Int32" data-uid="Lapis.Math.Numbers.Integer.op_Explicit(Lapis.Math.Numbers.Integer)~System.Int32">Explicit(Integer to Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of ta <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to a <span class="xref">System.Int32</span> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator int (Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to be converted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The <span class="xref">System.Int32</span> value that <code data-dev-comment-type="paramref">value</code> wraps.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_GreaterThan_" data-uid="Lapis.Math.Numbers.Integer.op_GreaterThan*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_GreaterThan_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_GreaterThan(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">GreaterThan(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> is greater than another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator&gt;(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">left</code> is greater than <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_GreaterThanOrEqual_" data-uid="Lapis.Math.Numbers.Integer.op_GreaterThanOrEqual*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_GreaterThanOrEqual_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_GreaterThanOrEqual(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">GreaterThanOrEqual(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> is greater than or equal to another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">left</code> is greater than or equal to <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Implicit_" data-uid="Lapis.Math.Numbers.Integer.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Implicit_Lapis_Math_Numbers_Integer__System_Double" data-uid="Lapis.Math.Numbers.Integer.op_Implicit(Lapis.Math.Numbers.Integer)~System.Double">Implicit(Integer to Double)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of ta <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to a <span class="xref">System.Double</span> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator double (Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to be converted.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The <span class="xref">System.Double</span> value that is equal to <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Implicit_" data-uid="Lapis.Math.Numbers.Integer.op_Implicit*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Implicit_System_Int32__Lapis_Math_Numbers_Integer" data-uid="Lapis.Math.Numbers.Integer.op_Implicit(System.Int32)~Lapis.Math.Numbers.Integer">Implicit(Int32 to Integer)</h4>
+  <div class="markdown level1 summary"><p>Defines an implicit conversion of a <span class="xref">System.Int32</span> value to a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Integer(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to be wrapped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object that wraps <code data-dev-comment-type="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Inequality_" data-uid="Lapis.Math.Numbers.Integer.op_Inequality*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Inequality_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Inequality(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Inequality(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects don&apos;t have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">left</code> is not the same as the value of <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_LessThan_" data-uid="Lapis.Math.Numbers.Integer.op_LessThan*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_LessThan_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_LessThan(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">LessThan(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> is less than another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">left</code> is less than <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_LessThanOrEqual_" data-uid="Lapis.Math.Numbers.Integer.op_LessThanOrEqual*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_LessThanOrEqual_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_LessThanOrEqual(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">LessThanOrEqual(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns a value indicating whether a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> is less than or equal to another specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref">left</code> is less than or equal to <code data-dev-comment-type="paramref">right</code>; otherwise, <span class="xref">false</span>。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Modulus_" data-uid="Lapis.Math.Numbers.Integer.op_Modulus*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Modulus_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Modulus(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Modulus(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the remainder that results from division with two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator %(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to be divided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to divide by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The remainder that results from the division.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.DivideByZeroException</span></td>
+        <td><p><code data-dev-comment-type="paramref">right</code> is 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Multiply_" data-uid="Lapis.Math.Numbers.Integer.op_Multiply*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Multiply_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Multiply(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Multiply(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Multiplies two specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator *(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The first value to multiply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The second value to multiply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The product of <code data-dev-comment-type="paramref">left</code> and <code data-dev-comment-type="paramref">right</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_Subtraction_" data-uid="Lapis.Math.Numbers.Integer.op_Subtraction*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_Subtraction_Lapis_Math_Numbers_Integer_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_Subtraction(Lapis.Math.Numbers.Integer,Lapis.Math.Numbers.Integer)">Subtraction(Integer, Integer)</h4>
+  <div class="markdown level1 summary"><p>Subtracts a <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object from another <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator -(Integer left, Integer right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The value to subtract from (the minuend).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The value to subtract (the subtrahend).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of subtracting <code data-dev-comment-type="paramref">right</code> from <code data-dev-comment-type="paramref">left</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_UnaryNegation_" data-uid="Lapis.Math.Numbers.Integer.op_UnaryNegation*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_UnaryNegation_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_UnaryNegation(Lapis.Math.Numbers.Integer)">UnaryNegation(Integer)</h4>
+  <div class="markdown level1 summary"><p>Negates a specified <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator -(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to negate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The result of the <code data-dev-comment-type="paramref">value</code> parameter multiplied by negative one (-1).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.OverflowException</span></td>
+        <td><p>The value is greater than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MaxValue">MaxValue</a> or less than <a class="xref" href="Lapis.Math.Numbers.Integer.html#Lapis_Math_Numbers_Integer_MinValue">MinValue</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_Math_Numbers_Integer_op_UnaryPlus_" data-uid="Lapis.Math.Numbers.Integer.op_UnaryPlus*"></a>
+  <h4 id="Lapis_Math_Numbers_Integer_op_UnaryPlus_Lapis_Math_Numbers_Integer_" data-uid="Lapis.Math.Numbers.Integer.op_UnaryPlus(Lapis.Math.Numbers.Integer)">UnaryPlus(Integer)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> operand. (The sign of the operand is unchanged.)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Integer operator +(Integer value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>A <a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.Math.Numbers.Integer.html">Integer</a></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref">value</code> operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
